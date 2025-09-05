@@ -1,0 +1,40 @@
+/* ChatGPT-inspired dark theme */
+body {
+  background: radial-gradient(circle at 50% 20%, #343541 0%, #171717 100%);
+  color: #e5e5e5;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: #10a37f;
+
+  &:hover {
+    color: darken(#10a37f, 5%);
+  }
+}
+
+.hero {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5rem;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #10a37f, #0e8a6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+  }
+
+  p {
+    font-size: 1.25rem;
+    max-width: 40rem;
+    color: #cfcfcf;
+    margin: 0;
+  }
+}
