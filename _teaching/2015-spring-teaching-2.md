@@ -1,20 +1,18 @@
 ---
-title: "Teaching experience 2"
+title: "At University of San Diego California"
 collection: teaching
-type: "Workshop"
+type: "Undegraduate and Graduate courses"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
+venue: "UCSD, Dept. of Physics"
 date: 2015-01-01
-location: "City, Country"
+location: "La Jolla, San Diego"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+At UC San Diego, I have contributed to the teaching mission of the Department of Physics by supporting both graduate and undergraduate courses. Here are a few
 
-Heading 1
-======
+- Emergent States of Matter (Twice) (Graduate courses given by Prof. Nigel Goldenfeld)
 
-Heading 2
-======
+- Phys 1 and 2 series (Undergraduate courses on college level physics covering topics ranging from Mechanics, Electromagnetism to hands-on labs on Waves and Oscillations).
+Machine Learning in Physics (Graduate Course, 2025)
 
-Heading 3
-======
+This involved leading weekly discussion sections to reinforce lecture material and guide students through advanced problem sets, holding office hours and helping faculty with grading/logistical tasks.
