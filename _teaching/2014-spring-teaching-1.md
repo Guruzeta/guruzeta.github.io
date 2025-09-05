@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate +  Graduate courses"
 permalink: /teaching/2014-spring-teaching-1
 venue: "In person and Online"
-date: 2014-01-01
+date: 2019-2022
 location: "Mumbai, India"
 ---
 During my time at IIT Bombay, I served as a Teaching Assistant across multiple core and advanced physics courses:
