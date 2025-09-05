@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Homepage"
+title: "Guru K. Jayasingh"
 excerpt: "Graduate student at UC San Diego; statistical mechanics & turbulence."
 author_profile: true
 redirect_from:

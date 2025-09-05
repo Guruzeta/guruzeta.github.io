@@ -1,8 +1,15 @@
 ---
+layout: archive
 title: "Portfolio"
 permalink: /portfolio/
-redirect_to: /
-sitemap: false
-search_exclude: true
-noindex: true
+author_profile: true
+published: false
 ---
+
+{% include base_path %}
+
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+
