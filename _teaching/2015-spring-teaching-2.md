@@ -4,7 +4,7 @@ collection: teaching
 type: "Undegraduate and Graduate courses"
 permalink: /teaching/2015-spring-teaching-1
 venue: "UCSD, Dept. of Physics"
-date: 2015-01-01
+date: 2022-2024
 location: "La Jolla, San Diego"
 ---
 
