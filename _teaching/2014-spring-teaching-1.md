@@ -3,7 +3,7 @@ title: "At Indian Institute of Technology Bombay"
 collection: teaching
 type: "Undergraduate +  Graduate courses"
 permalink: /teaching/2014-spring-teaching-1
-venue: "In person and Oline"
+venue: "In person and Online"
 date: 2014-01-01
 location: "Mumbai, India"
 ---
