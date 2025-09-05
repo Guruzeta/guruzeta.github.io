@@ -10,7 +10,7 @@ location: "La Jolla, San Diego"
 
 At UC San Diego, I have contributed to the teaching mission of the Department of Physics by supporting both graduate and undergraduate courses. Here are a few
 
-- Emergent States of Matter (Twice) (Graduate courses given by Prof. Nigel Goldenfeld)
+- Emergent States of Matter (Twice) (Graduate course given by Prof. Nigel Goldenfeld)
 
 - Phys 1 and 2 series (Undergraduate courses on college level physics covering topics ranging from Mechanics, Electromagnetism to hands-on labs on Waves and Oscillations).
 Machine Learning in Physics (Graduate Course, 2025)
