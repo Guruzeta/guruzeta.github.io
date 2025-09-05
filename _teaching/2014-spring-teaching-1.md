@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 1"
+title: "At Indian Institute of Technology Bombay"
 collection: teaching
-type: "Undergraduate course"
+type: "Undergraduate +  Graduate courses"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+venue: "In person and Oline"
 date: 2014-01-01
-location: "City, Country"
+location: "Mumbai, India"
 ---
+During my time at IIT Bombay, I served as a Teaching Assistant across multiple core and advanced physics courses:
 
-This is a description of a teaching experience. You can use markdown like any other post.
+- Statistical Physics (Spring 2022)
 
-Heading 1
-======
+- Advanced Statistical Mechanics (Autumn 2021)
 
-Heading 2
-======
+- Complex Analysis (Autumn 2020)
 
-Heading 3
-======
+- Electromagnetism (Summer 2019)
+
+This involved conducting weekly tutorial sessions and helping the instructors with examinations, grading, and curating practice problems to strengthen student learning outcomes. 
