@@ -1,15 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Tricritical Directed Percolation Controls the Laminar-Turbulent Transition in Pipes with Body Forces"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2025-09-03-tricritical-dp-body-force
+excerpt: 'Transition to turbulence in shear flows has been established to be a non-equilibrium phase transition. Body forces can make the transition discontinuous. Observed phenomenology can be explained by a new tricritical point near transition, enriching the phase diagram of transitional turbulence.'
+date: 2025-09-03
+venue: 'Physical Review Letters'
+paperurl: 'https://doi.org/10.1103/46g3-n7cx'
+citation: 'Guru K. Jayasingh and Nigel Goldenfeld, Tricritical directed percolation controls the laminar–turbulent transition in pipes with body forces, Phys. Rev. Lett. 135, 104001 (2025). doi:10.1103/PhysRevLett.135.104001'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+I’m pleased to share that my recent paper, written with Nigel Goldenfeld, has been published in Physical Review Letters. In this work we study the transition from laminar to turbulent flow in pipes when body forces are applied. We show that this transition can be described within the framework of tricritical directed percolation, a universality class from statistical physics. The result connects fluid mechanics with ideas from non-equilibrium phase transitions and provides a compact way to understand how turbulence can emerge in such systems. [Read the paper here][https://doi.org/10.1103/PhysRevLett.135.104001]
