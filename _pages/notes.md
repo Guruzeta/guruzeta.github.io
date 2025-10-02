@@ -1,14 +1,14 @@
 ---
-layout: archive
 title: "Notes"
 permalink: /notes/
-author_profile: true
+layout: single        # Minimal Mistakes page layout
+author_profile: true  # shows your sidebar profile
+toc: true             # optional: auto table of contents
+toc_sticky: true      # optional: sticky TOC on desktop
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+Welcome! This page collates my notes across topics.
 
-{% include base_path %}
+- [Condensed Matter](#cond-mat)
+- [Machine Learning](#machine-learning)
 
-In this page, I collate my notes for various topics. 
