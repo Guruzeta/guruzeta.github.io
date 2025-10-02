@@ -14,6 +14,11 @@ This page collects my notes across topics—summaries of things I found importan
 - [Topological Defects](https://guruzeta.github.io/files/top_defects.pdf)
 - [Floquet systems](https://guruzeta.github.io/files/floquet.pdf)
 - [Cahn Hilliard calculus](https://guruzeta.github.io/files/cahn_hilliard.pdf)
+- [Misc. on Landau theory](https://guruzeta.github.io/files/landau_theory.pdf)
+
+
+
+
 
 
 
