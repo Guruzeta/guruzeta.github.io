@@ -13,6 +13,7 @@ This page collects my notes across topics—summaries of things I found importan
 - [Spontaneous symmetry breaking](https://guruzeta.github.io/files/ssb.pdf)
 - [Topological Defects](https://guruzeta.github.io/files/top_defects.pdf)
 - [Floquet systems](https://guruzeta.github.io/files/floquet.pdf)
+- [Cahn Hilliard calculus](https://guruzeta.github.io/files/cahn_hilliard.pdf)
 
 
 
