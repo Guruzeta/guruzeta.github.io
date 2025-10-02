@@ -10,4 +10,5 @@ toc_sticky: true      # optional: sticky TOC on desktop
 This page collects my notes across topics—summaries of things I found important or non-trivial while learning. Since research is non-linear, the notes often wander or end abruptly. Any errors are from my past misunderstandings. Cheers!
 
 - [Topology in Condensed Matter](https://guruzeta.github.io/files/cheat_sheet.pdf)
+- [Spontaneous symmetry breaking](https://guruzeta.github.io/files/ssb.pdf)
 
