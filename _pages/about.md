@@ -8,17 +8,17 @@ redirect_from:
   - /about.html
 sitemap: true
 ---
-### 👋 About Me
+## 👋 About Me
 
-I am **Guru Kalyan Jayasingh**, a Ph.D. candidate in **Theoretical Physics at the University of California, San Diego**, advised by **Prof. Nigel Goldenfeld**. My research lies at the intersection of **statistical mechanics, turbulence, and complex systems**, with an emphasis on understanding **phase transitions and emergent behavior in non-equilibrium flows**.
-
-
-
-My recent work develops and tests **stochastic and field-theoretic models** of laminar–turbulent transitions, notably identifying **tricritical directed percolation** as the universality class governing transition dynamics in pipe flows with body forces. Parallel to this, I am investigating a wave turbulence at strong coupling in elastic plates, bridging analytical and numerical approaches to understand intermittency and flux-driven steady states.
+I am Guru Kalyan Jayasingh, a Ph.D. candidate in Theoretical Physics at the University of California, San Diego, advised by Prof. Nigel Goldenfeld. My research lies at the intersection of statistical mechanics, turbulence, and complex systems, with an emphasis on understanding phase transitions and emergent behavior in non-equilibrium flows.
 
 
 
-Broadly, my research combines **renormalization group methods, stochastic simulations, and large-scale computation** to explore universality, scaling, and self-organization in turbulent systems.
+My recent work develops and tests stochastic and field-theoretic models of laminar–turbulent transitions, notably identifying tricritical directed percolation as the universality class governing transition dynamics in pipe flows with body forces. Parallel to this, I am investigating a wave turbulence at strong coupling in elastic plates, bridging analytical and numerical approaches to understand intermittency and flux-driven steady states.
+
+
+
+Broadly, my research combines renormalization group methods, stochastic simulations, and large-scale computation to explore universality, scaling, and self-organization in turbulent systems.
 
 
 
