@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: 
+title: "👋 About Me"
 excerpt: "Graduate student at UC San Diego; statistical mechanics & turbulence."
 author_profile: true
 redirect_from:
@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 sitemap: true
 ---
-## 👋 About Me
-
 I’m Guru Kalyan Jayasingh, a Ph.D. candidate in Theoretical Physics at UC San Diego, advised by Prof. Nigel Goldenfeld. My research focuses on the statistical mechanics of turbulence, exploring phase transitions, scaling, and universality in non-equilibrium systems.
 
 I develop stochastic and field-theoretic models for the laminar–turbulent transition and wave turbulence, combining analytical theory, computation, and simulation to uncover emergent behavior in complex flows.
