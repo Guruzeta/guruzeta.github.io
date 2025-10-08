@@ -11,6 +11,15 @@ citation: 'Guru K. Jayasingh and Nigel Goldenfeld, Tricritical directed percolat
 
 I’m pleased to share that my recent paper, written with Nigel Goldenfeld, has been published in Physical Review Letters. In this work we study the transition from laminar to turbulent flow in pipes when body forces are applied. We show that this transition can be described within the framework of tricritical directed percolation, a universality class from statistical physics. The result connects fluid mechanics with ideas from non-equilibrium phase transitions and provides a compact way to understand how turbulence can emerge in such systems. [Read the paper here](https://doi.org/10.1103/PhysRevLett.135.104001)
 
-
 [News blurb covering our work](https://today.ucsd.edu/story/turbulence-with-a-twist)
 
+<div align="center">
+<h4>🧪 Explore my research interactively</h3>
+
+<a href="https://chatgpt.com/g/g-68e699d7b85881918b87e4fae3b4f8c9-tricritical-dp-in-laminar-turbulent-transition">
+  <img src="https://img.shields.io/badge/Try%20the%20Tricritical%20DP%20GPT-black?style=for-the-badge&logo=openai&logoColor=white" alt="Tricritical DP GPT">
+</a>
+
+<p><em>An interactive GPT trained on my PRL paper:<br>
+<i>“Tricritical Directed Percolation Controls the Laminar–Turbulent Transition in Pipes with Body Forces.”</i></em></p>
+</div>
