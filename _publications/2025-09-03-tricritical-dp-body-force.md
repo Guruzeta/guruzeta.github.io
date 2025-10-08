@@ -13,13 +13,22 @@ I’m pleased to share that my recent paper, written with Nigel Goldenfeld, has 
 
 [News blurb covering our work](https://today.ucsd.edu/story/turbulence-with-a-twist)
 
-<div align="center">
-<h4>🧪 Explore my research interactively</h3>
 
-<a href="https://chatgpt.com/g/g-68e699d7b85881918b87e4fae3b4f8c9-tricritical-dp-in-laminar-turbulent-transition">
-  <img src="https://img.shields.io/badge/Try%20the%20Tricritical%20DP%20GPT-black?style=for-the-badge&logo=openai&logoColor=white" alt="Tricritical DP GPT">
-</a>
 
-<p><em>An interactive GPT trained on my PRL paper:<br>
-<i>“Tricritical Directed Percolation Controls the Laminar–Turbulent Transition in Pipes with Body Forces.”</i></em></p>
-</div>
+
+
+<div class="text-center" markdown="1">
+
+### 🧪 Explore my research interactively
+
+[![Try the Tricritical DP GPT](https://img.shields.io/badge/Try%20the%20Tricritical%20DP%20GPT-000000?style=for-the-badge&logo=openai&logoColor=white)](https://chatgpt.com/g/g-68e699d7b85881918b87e4fae3b4f8c9-tricritical-dp-in-laminar-turbulent-transition)
+
+<em>An interactive GPT trained on my PRL paper:<br>
+“Tricritical Directed Percolation Controls the Laminar–Turbulent Transition in Pipes with Body Forces.”</em>
+
+
+
+
+
+
+
