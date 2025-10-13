@@ -2,31 +2,34 @@
 ---
 
 /* =====================================================================
-   Custom Font and Type Overrides for Minimal Mistakes
-   Light Theme — Academic & Professional
-   Author: Guru Kalyan Jayasingh
+   Guru Kalyan Jayasingh
+   Custom Styling for Minimal Mistakes (Light Theme)
    ===================================================================== */
 
-/* === Font Imports === */
+/* === Google Fonts === */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@600;700&display=swap');
 
-/* === Font Variable Overrides (must come before @import "variables") === */
+/* === Font and Color Variable Overrides === */
+/* (must come before @import "variables") */
+
 $sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 $serif: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
 
-/* === Typography Adjustments === */
 $global-font-size: 17px;
 $body-line-height: 1.75;
 $header-font-weight: 700;
-$body-color: #222;           // Standard dark text on white background
-$link-color: #1565c0;        // Refined deep blue
+$body-color: #222;
+$link-color: #1565c0;
 $link-color-hover: darken($link-color, 8%);
+$muted-text-color: #555;       // fixes invisible sidebar links on white background
+$text-color: #222;
+$background-color: #fff;
 
 /* =====================================================================
    Core Theme Imports (do not reorder)
    ===================================================================== */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/breakpoint/breakpoint";
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -53,7 +56,7 @@ $link-color-hover: darken($link-color, 8%);
 @import "print";
 
 /* =====================================================================
-   Custom Global Overrides (after imports)
+   Global Customizations
    ===================================================================== */
 
 body {
@@ -61,7 +64,7 @@ body {
   font-size: $global-font-size;
   line-height: $body-line-height;
   color: $body-color;
-  background-color: #ffffff;   // keep bright, clean background
+  background-color: $background-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -85,8 +88,36 @@ p {
   color: #333;
 }
 
-/* Optional: improve spacing between sections */
 .page__content {
   line-height: 1.75;
   font-size: 17px;
+}
+
+/* =====================================================================
+   Sidebar (Profile) Customization
+   ===================================================================== */
+
+/* make sidebar icons and links darker and visible */
+.author__urls a {
+  color: #333 !important;
+  font-size: 1.05rem;     /* slightly larger font for text */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.author__urls a:hover {
+  color: $link-color !important;
+  transform: scale(1.05);
+}
+
+/* enlarge social icons */
+.author__urls i {
+  font-size: 1.15rem !important;   /* default ~0.9rem; this makes them ~30% bigger */
+  vertical-align: middle;
+}
+
+/* optional: add spacing between list items */
+.author__urls li {
+  margin-bottom: 0.35rem;
 }
