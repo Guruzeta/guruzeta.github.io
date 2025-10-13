@@ -2,33 +2,32 @@
 ---
 
 /* =====================================================================
-   Guru Kalyan Jayasingh
-   Custom Styling for Minimal Mistakes (Light Theme)
+   Guru Kalyan Jayasingh — Minimal Mistakes (Light)
+   Fonts + visible sidebar + larger social buttons
    ===================================================================== */
 
-/* === Google Fonts === */
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@600;700&display=swap');
 
-/* === Font and Color Variable Overrides === */
-/* (must come before @import "variables") */
-
+/* ---------- Variables (must be BEFORE theme imports) ---------- */
 $sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 $serif: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
 
 $global-font-size: 17px;
 $body-line-height: 1.75;
 $header-font-weight: 700;
+
+/* text + links for light theme */
 $body-color: #222;
 $link-color: #1565c0;
 $link-color-hover: darken($link-color, 8%);
-$muted-text-color: #555;       // fixes invisible sidebar links on white background
+
+/* 👇 crucial: affects location row and other muted sidebar text */
+$muted-text-color: #555;   /* was too light before */
 $text-color: #222;
 $background-color: #fff;
 
-/* =====================================================================
-   Core Theme Imports (do not reorder)
-   ===================================================================== */
-
+/* ---------- Theme imports (do not reorder) ---------- */
 @import "vendor/breakpoint/breakpoint";
 @import "variables";
 @import "mixins";
@@ -55,14 +54,11 @@ $background-color: #fff;
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* =====================================================================
-   Global Customizations
-   ===================================================================== */
-
+/* ---------- Global tweaks ---------- */
 body {
   font-family: $sans-serif;
   font-size: $global-font-size;
-  line-height: $body-line-height;
+  line-height: $body-line_height;
   color: $body-color;
   background-color: $background-color;
 }
@@ -74,50 +70,38 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.3px;
 }
 
-a {
-  color: $link-color;
-  text-decoration: none;
-}
+a { color: $link-color; text-decoration: none; }
+a:hover { color: $link-color-hover; text-decoration: underline; }
 
-a:hover {
-  color: $link-color-hover;
-  text-decoration: underline;
-}
+p { color: #333; }
 
-p {
-  color: #333;
-}
+.page__content { line-height: 1.75; font-size: 17px; }
 
-.page__content {
-  line-height: 1.75;
-  font-size: 17px;
-}
+/* ---------- Sidebar / Profile ---------- */
 
-/* =====================================================================
-   Sidebar (Profile) Customization
-   ===================================================================== */
+/* Make ALL entries readable on light skin, including non-links (location) */
+.author__urls { color: #333; }                /* base color for list */
+.author__urls li { color: #333; }             /* plain <li>, e.g., location */
+.author__location { color: #333 !important; } /* location row specifically */
 
-/* make sidebar icons and links darker and visible */
+/* Links styling + size boost */
 .author__urls a {
   color: #333 !important;
-  font-size: 1.05rem;     /* slightly larger font for text */
+  font-size: 1.05rem;          /* bigger labels */
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
 }
-
 .author__urls a:hover {
   color: $link-color !important;
   transform: scale(1.05);
 }
 
-/* enlarge social icons */
+/* Enlarge icons (email, LinkedIn, GitHub, etc.) */
 .author__urls i {
-  font-size: 1.15rem !important;   /* default ~0.9rem; this makes them ~30% bigger */
+  font-size: 1.15rem !important;  /* ~30% bigger */
   vertical-align: middle;
 }
 
-/* optional: add spacing between list items */
-.author__urls li {
-  margin-bottom: 0.35rem;
-}
+/* A touch more spacing between rows */
+.author__urls li { margin-bottom: 0.35rem; }
