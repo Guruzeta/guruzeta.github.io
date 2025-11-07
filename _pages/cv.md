@@ -201,7 +201,7 @@ Honors: **Institute Silver Medal**, **Institute Academic Prizes** (2019, 2021)
 
 - **Physics:** Advanced Statistical Mechanics · Condensed Matter Theory · Quantum Field Theory · Topological Aspects of Quantum Matter · Nonlinear Dynamics  
 - **Mathematics:** Group Theory · Complex Analysis · Differential Equations · Numerical Analysis  
-- **Computational:** Machine learning in computational mechanics · Machine learning in physics · Programming · Microprocessor Lab · Data Analysis
+- **Computational:** Machine learning· Programming · Data Analysis
 
 ---
 
