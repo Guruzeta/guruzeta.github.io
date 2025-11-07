@@ -17,11 +17,7 @@ I completed a Dual Degree (B.Tech + M.Tech) in Engineering Physics at IIT Bombay
 
 
 
-I’m broadly interested in how ideas from statistical physics can illuminate complex phenomena — from turbulence to collective behavior in systems both in and out of equilibrium. Some of the things I'm currently working on are problems related to
-
-- Wave turbulence 
-- Statistical mechanics of transitional turbulence 
-- Spontaneous Stochasticity in fully developed turbulent flows
+I’m broadly interested in how ideas from statistical physics can illuminate complex phenomena — from turbulence to collective behavior in systems both in and out of equilibrium. Some of the things I'm currently working on are problems related to wave turbulence, statistical mechanics of transitional turbulence and Spontaneous Stochasticity in turbulent flows.
 
 
 
