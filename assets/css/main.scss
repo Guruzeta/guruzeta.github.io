@@ -146,3 +146,26 @@ p { color: #333; }
 .archive .entry-content li::marker {
   color: #111;
 }
+
+
+/* === Navigation bar font size and spacing === */
+.masthead__menu-item a {
+  font-size: 1.05rem;   /* increase/decrease as needed */
+  font-weight: 600;     /* makes it a bit bolder (optional) */
+  letter-spacing: 0.2px;
+}
+
+.masthead__menu {
+  gap: 1rem;            /* increases spacing between menu items */
+}
+
+
+
+/* === Sidebar Author Name Styling === */
+.author__name {
+  font-size: 1.35rem;     /* increase size (default ~1.1rem) */
+  font-weight: 700;       /* make it bold */
+  color: #111;            /* darker for contrast */
+  letter-spacing: 0.3px;  /* subtle spacing for elegance */
+  margin-bottom: 0.25rem; /* reduces gap before next line */
+}
