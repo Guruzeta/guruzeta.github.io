@@ -39,7 +39,7 @@ Professional email: 📧 [gjayasingh@ucsd.edu](mailto:gjayasingh@ucsd.edu)
 - **Indian Young Physicists’ League (IYPL)** – **All-India Rank 3** (2021), national theoretical physics competition.  
 - **KVPY Fellowship**, Department of Science & Technology, India (2017) – Prestigious **national fellowship** for the top ~1% of science students with research potential.  
 - Qualified KVS-RMO(**Regional Mathematics Olympiad**) and was among the top **50** students from all over the country to attend a 10 day long INMO (Indian National Mathematics Olympiad) preparatory camp.
-- **National Standard Examination in Chemistry (NSEC)** – Ranked in the **national top 1%**(2016).
+- **National Standard Examination in Chemistry (NSEC)** – Ranked in the **national top 1%**(2016), and earning invitation to appear in INCHO (**Indian National Chemistry Olympiad**).
 
 ---
 
@@ -66,7 +66,8 @@ Professional email: 📧 [gjayasingh@ucsd.edu](mailto:gjayasingh@ucsd.edu)
 **Research Intern** — *Aalto Science Institute (AScI), Finland*  
 *Apr 2020 – May 2021*  
 - Selected for the prestigious AScI International Internship Program.  
-- Investigated fluctuations in non-centrosymmetric superconductors under Dr. Alexander Zyuzin, studying the effects of spin–orbit coupling on thermodynamic observables
+- Investigated fluctuations in non-centrosymmetric superconductors under Dr. Alexander Zyuzin, studying the effects of spin–orbit coupling on thermodynamic observables.
+- Extended this work into my bachelor's thesis which also investigated odd-parity superconductors.
 
 **Research Intern** — *National Institute of Science Education and Research (NISER), Bhubaneswar, India*  
 *May 2018 – Aug 2018*  
@@ -77,7 +78,7 @@ Professional email: 📧 [gjayasingh@ucsd.edu](mailto:gjayasingh@ucsd.edu)
 
 ## Research Interests
 
-Fluid Mechanics and Turbulence · Non-Equilibrium Statistical Mechanics · Condensed Matter
+Fluid Mechanics and Turbulence · Non-Equilibrium Statistical Mechanics · Condensed Matter · Machine learning for physics sciences · AI for physics
 
 ## Publications
 
