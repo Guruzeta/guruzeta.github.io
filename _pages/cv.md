@@ -5,6 +5,8 @@ layout: single
 author_profile: true
 ---
 
+[PDF version link](https://guruzeta.github.io/files/Guru_K_Jayasingh_CV_Nov_2025.pdf)
+
 ## Personal Information
 
 Visa Status: **F-1**
@@ -31,12 +33,12 @@ Professional email: 📧 [gjayasingh@ucsd.edu](mailto:gjayasingh@ucsd.edu)
 
 - **Institute Silver Medal**, IIT Bombay (2022) – Awarded to the **top-ranked student** in the graduating class of each academic program.  
 - **K. Seshia Research Excellence Award**, IIT Bombay (2022) – Given to the **best Master’s thesis in Physics** for research originality and rigor.  
--  **Received the Physics Excellence Award** from the Department of Physics at the University of California San Diego.
+- **Received the Physics Excellence Award** from the Department of Physics at the University of California San Diego.
 - **Institute Academic Prizes**, IIT Bombay (2019, 2021) – Annual award for the **highest GPA in the Physics Department**.  
 - **Aalto Science Institute (AScI) Fellowship**, Finland (2020) – International research fellowship for top students in science and engineering.  
 - **Indian Young Physicists’ League (IYPL)** – **All-India Rank 3** (2021), national theoretical physics competition.  
 - **KVPY Fellowship**, Department of Science & Technology, India (2017) – Prestigious **national fellowship** for the top ~1% of science students with research potential.  
-- **Regional Mathematics Olympiad (RMO)** – Among **top 50 nationally**, qualified for the **Indian National Mathematics Olympiad** training camp (2015).  
+- Qualified KVS-RMO(**Regional Mathematics Olympiad**) and was among the top **50** students from all over the country to attend a 10 day long INMO (Indian National Mathematics Olympiad) preparatory camp.
 - **National Standard Examination in Chemistry (NSEC)** – Ranked in the **national top 1%**(2016).
 
 ---
@@ -92,7 +94,7 @@ Focus: **Statistical Mechanics of Turbulent Phenomena**
 
 **Indian Institute of Technology Bombay (IIT Bombay)** — Dual Degree (B.Tech + M.Tech) in Engineering Physics *(2017–2022)*  
 Specialization: Nanoscience · GPA 9.44 / 10  
-Honors: **Institute Silver Medal**, **Institute Academic Prizes** (2019, 2021)
+Honors: **Institute Silver Medal**, **K.Seshia Research Excellence Award**, **Institute Academic Prizes** (2019, 2021)
 
 ---
 
