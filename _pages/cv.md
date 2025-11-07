@@ -1,7 +1,8 @@
 ---
+title: "Curriculum Vitae"
 permalink: /cv/
-title: "Vitae"
-Published: true
+layout: single
+author_profile: true
 ---
 
 * # **Guru Kalyan Jayasingh**
