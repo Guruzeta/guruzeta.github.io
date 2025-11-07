@@ -130,3 +130,19 @@ p { color: #333; }
   list-style-position: outside;
   padding-left: 1.25rem;
 }
+
+
+
+
+/* --- Fix list indentation on archive-style pages (Teaching) --- */
+.archive .entry-content ul,
+.archive .entry-content ol {
+  list-style: disc;
+  list-style-position: outside;
+  margin-left: 1.5rem;  /* pulls bullets into view */
+  padding-left: 0;      /* optional: keeps it tidy */
+}
+
+.archive .entry-content li::marker {
+  color: #111;
+}

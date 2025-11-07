@@ -14,9 +14,7 @@ Ph.D. Candidate in Theoretical Physics, University of California San Diego
 
 ## Address
 
-Room 7258, Urey Hall
-
-University of California San Diego, Department of Physics, 9500 Gilman Drive, MC 0319, La Jolla CA 92093, USA
+Room 7258, Urey Hall, University of California San Diego, Department of Physics, 9500 Gilman Drive, La Jolla CA 92093, USA
 
 ---
 
@@ -159,7 +157,7 @@ Honors: **Institute Silver Medal**, **Institute Academic Prizes** (2019, 2021)
 
 **Teaching Assistant**, Indian Institute of Technology Bombay  
 
-- Served as a teaching assistant for the following courses: 
+- Served as a teaching assistant **undergraduate** and **graduate** courses comprising 
   - Statistical Physics 
   - Advanced Statistical Mechanics
   - Complex Analysis
@@ -179,11 +177,11 @@ Honors: **Institute Silver Medal**, **Institute Academic Prizes** (2019, 2021)
 
 ---
 
-## Technical Proficiencies
+## Technical Skills
 
-- **Programming:** Python  · C/C++ · PyTorch  
+- **Programming:** Python  · C/C++ (familiar) · PyTorch  
 - **Libraries:** NumPy · SciPy · scikit-learn · Pandas · Numba · Matplotlib · Seaborn  
-- **Tools:** LaTeX · Mathematica · Git · Jupyter · Markdown · SageMath  
+- **Tools:** LaTeX · Mathematica · Git · Jupyter · Markdown
 - **Methods:** Stochastic Modeling · Monte Carlo Simulation · Machine Learning · Statistical Analysis
 
 ---
