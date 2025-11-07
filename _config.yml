@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Guru Kalyan Jayasingh"
 title_separator          : "-"
-name                     : &name "Guru Kalyan"
+name                     : &name "Guru Kalyan Jayasingh"
 description              : &description "Physics PhD student at UCSD"
 url                      : https://guruzeta.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -85,7 +85,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Guru Kalyan"
+  name             : "Guru Kalyan \n Jayasingh"
   avatar           : "profile.png"
   bio              : "Physics PhD student at UCSD"
   location         : "San Diego, CA"
@@ -120,7 +120,16 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
+  links:              # ← add this section
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:gjayasingh@ucsd.edu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Guruzeta"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/guru-kalyan-jayasingh/"
 
 # Reading Files
 include:

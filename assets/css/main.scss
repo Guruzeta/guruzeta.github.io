@@ -169,3 +169,16 @@ p { color: #333; }
   letter-spacing: 0.3px;  /* subtle spacing for elegance */
   margin-bottom: 0.25rem; /* reduces gap before next line */
 }
+
+.author__content a,
+.author__urls a {
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.sidebar a {
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
+}

@@ -5,18 +5,27 @@ layout: single
 author_profile: true
 ---
 
+## Personal Information
 
+Visa Status: **F-1**
+
+Private email: 📧 [gurukalyan1.618@gmail.com](mailto:gurukalyan1.618@gmail.com)
+
+Phone no.: +1-8582419743
 
 ## Present Position
 
-Ph.D. Candidate in Theoretical Physics, University of California San Diego  
-📧 gjayasingh@ucsd.edu · 🌐 [https://guruzeta.github.io](https://guruzeta.github.io)
+Ph.D. Candidate in Theoretical Physics, University of California San Diego  (2022-current)
 
-## Address
+----
 
-Room 7258, Urey Hall, University of California San Diego, Department of Physics, 9500 Gilman Drive, La Jolla CA 92093, USA
+## Work details 
 
----
+Address: Room 7258, Urey Hall, University of California San Diego, Department of Physics, 9500 Gilman Drive, La Jolla CA 92093, USA
+
+Professional email: 📧 [gjayasingh@ucsd.edu](mailto:gjayasingh@ucsd.edu) 
+
+----
 
 ## Honors and Achievements
 
@@ -62,6 +71,8 @@ Room 7258, Urey Hall, University of California San Diego, Department of Physics,
 
 - Supervised by Dr. Sutanu Roy; studied Banach spaces, fixed-point theorems, and mathematical formulations of Google’s PageRank algorithm.  
 
+---
+
 ## Research Interests
 
 Fluid Mechanics and Turbulence · Non-Equilibrium Statistical Mechanics · Condensed Matter
@@ -83,7 +94,7 @@ Focus: **Statistical Mechanics of Turbulent Phenomena**
 Specialization: Nanoscience · GPA 9.44 / 10  
 Honors: **Institute Silver Medal**, **Institute Academic Prizes** (2019, 2021)
 
-
+---
 
 ## Research Experience
 
