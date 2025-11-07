@@ -1,0 +1,17 @@
+/* make list text and markers dark enough in light mode */
+ul,
+ol,
+ul li,
+ol li {
+  color: #111 !important;
+}
+
+ul li::marker,
+ol li::marker {
+  color: #111 !important;
+}
+
+/* optional: paragraphs too, if they look washed out */
+p {
+  color: #111;
+}
