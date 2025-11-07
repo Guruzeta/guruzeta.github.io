@@ -106,7 +106,7 @@ Honors: **Institute Silver Medal**, **Institute Academic Prizes** (2019, 2021)
 *Aalto Institute, Finland (Alexander Zyuzin) — 2020*  
 
 - Extended Ginzburg-landau theory to spin–orbit-coupled superconductors **lacking inversion symmetry.**  
-- Analyzed fluctuation effects on magnetic susceptibility and specific heat near \( T_c \).  
+- Analyzed fluctuation effects on magnetic susceptibility and specific heat near critical temperature.  
 - [Report](https://guruzeta.github.io/sun/Non-Centrosymmetric-superconductors/)
 
 ### Characterizing Topological Insulator-Superconductor Junctions
