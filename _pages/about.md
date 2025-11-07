@@ -32,7 +32,7 @@ I completed a Dual Degree (B.Tech + M.Tech) in Engineering Physics at **IIT Bomb
      style="font-size: 22px; font-weight: 600; color: #222; text-decoration: none; font-family: 'Inter', sans-serif;"
      onmouseover="this.style.color='#000'"
      onmouseout="this.style.color='#222'">
-    📄 Link to PDF version of my CV
+     Link to PDF version of my CV
   </a>
 </p>
 
