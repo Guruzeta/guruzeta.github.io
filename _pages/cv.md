@@ -17,7 +17,7 @@ Phone no.: +1-8582419743
 
 ## Present Position
 
-Ph.D. Candidate in Theoretical Physics, University of California San Diego  (2022-present)
+Ph.D. Candidate in Theoretical Physics, University of California San Diego  (2022--present)
 
 ----
 
