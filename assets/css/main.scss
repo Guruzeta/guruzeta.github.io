@@ -58,7 +58,7 @@ $background-color: #fff;
 body {
   font-family: $sans-serif;
   font-size: $global-font-size;
-  line-height: $body-line_height;
+  line-height: $body-line-height;   /* fixed variable name */
   color: $body-color;
   background-color: $background-color;
 }
@@ -105,3 +105,28 @@ p { color: #333; }
 
 /* A touch more spacing between rows */
 .author__urls li { margin-bottom: 0.35rem; }
+
+/* ---------- CV page / Bullet visibility fix ---------- */
+
+/* Make bullets and list markers visible in light mode */
+.page__content ul,
+.page__content ol {
+  color: #111 !important;
+}
+
+.page__content ul li::marker,
+.page__content ol li::marker {
+  color: #111 !important;
+}
+
+/* Adjust spacing and indentation for readability */
+.page__content ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1.25rem;
+}
+
+.page__content ol {
+  list-style-position: outside;
+  padding-left: 1.25rem;
+}
