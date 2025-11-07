@@ -17,11 +17,11 @@ Phone no.: +1-8582419743
 
 ## Present Position
 
-Ph.D. Candidate in Theoretical Physics, University of California San Diego  (2022-current)
+Ph.D. Candidate in Theoretical Physics, University of California San Diego  (2022-present)
 
 ----
 
-## Work details 
+## Work Details 
 
 Address: Room 7258, Urey Hall, University of California San Diego, Department of Physics, 9500 Gilman Drive, La Jolla CA 92093, USA
 
