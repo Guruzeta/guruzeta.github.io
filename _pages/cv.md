@@ -48,7 +48,8 @@ Professional email:  [gjayasingh@ucsd.edu](mailto:gjayasingh@ucsd.edu)
 **Graduate Researcher (Ph.D. Student)** — *University of California San Diego, USA*  
 *Sept 2022 – Present*  
 
-- Conducting research with Prof. Nigel Goldenfeld on the statistical mechanics of turbulence and non-equilibrium phase transitions.  
+- Conducting research with Prof. Nigel Goldenfeld on the statistical mechanics of turbulence and 
+  non-equilibrium phase transitions.  
 - Demonstrated that the laminar–turbulent transition in pipe flows with body forces is governed by **tricritical directed percolation**, published in *Physical Review Letters*.  
 - Currently working on problems related to **wave turbulence, transitions to turbulence in shear-flows, and stochasticity in turbulent fluids.**
 
