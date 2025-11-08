@@ -39,7 +39,7 @@ Professional email:  [gjayasingh@ucsd.edu](mailto:gjayasingh@ucsd.edu)
 - **Indian Young Physicists’ League (IYPL)** – **All-India Rank 3** (2021), national theoretical physics competition.  
 - **KVPY Fellowship**, Department of Science & Technology, India (2017) – Prestigious **national fellowship** for the top ~1% of science students with research potential.  
 - Qualified KVS-RMO (**Regional Mathematics Olympiad**) and was among the top **50** students from all over the country to attend a 10 day INMO (Indian National Mathematics Olympiad) preparatory camp.
-- **National Standard Examination in Chemistry (NSEC)** – Ranked in the **national top 1% **(2016), and earning invitation to appear in INCHO (**Indian National Chemistry Olympiad**).
+- **National Standard Examination in Chemistry (NSEC)** – Ranked in the **national top 1% ** (2016), and earning invitation to appear in INCHO (**Indian National Chemistry Olympiad**).
 
 ---
 
