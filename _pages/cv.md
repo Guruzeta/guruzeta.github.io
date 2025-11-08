@@ -13,7 +13,7 @@ Visa Status: **F-1**
 
 Private email: [gurukalyan1.618@gmail.com](mailto:gurukalyan1.618@gmail.com)
 
-Phone no.: +1-8582419743
+Phone: +1-8582419743
 
 ## Present Position
 
