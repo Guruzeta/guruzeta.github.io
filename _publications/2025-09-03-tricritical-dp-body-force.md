@@ -21,7 +21,7 @@ I’m pleased to share that my recent paper, written with Prof. Nigel Goldenfeld
 
 <div class="text-center" markdown="1">
 
-### 🧪 Explore my research interactively
+### Explore my research interactively
 
 [![Try the Tricritical DP GPT](https://img.shields.io/badge/Try%20the%20Tricritical%20DP%20GPT-000000?style=for-the-badge&logo=openai&logoColor=white)](https://chatgpt.com/g/g-68e699d7b85881918b87e4fae3b4f8c9-tricritical-dp-in-laminar-turbulent-transition)
 
