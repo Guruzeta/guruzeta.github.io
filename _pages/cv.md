@@ -38,7 +38,6 @@ Professional email:  [gjayasingh@ucsd.edu](mailto:gjayasingh@ucsd.edu)
 - **Aalto Science Institute (AScI) Fellowship**, Finland (2020) – International research fellowship for top students in science and engineering.  
 - **Indian Young Physicists’ League (IYPL)** – **All-India Rank 3** (2021), national theoretical physics competition.  
 - **KVPY Fellowship**, Department of Science & Technology, India (2017) – Prestigious **national fellowship** for the top ~1% of science students with research potential.  
-- Ranked in the **national top 1%** in national olympiad selection tests (NSEC, NSEP)(2016), and earning invitation to appear in INCHO (**Indian National Chemistry Olympiad**).
 
 ---
 
