@@ -9,8 +9,6 @@ author_profile: true
 
 ## Personal Information
 
-Visa Status: **F-1**
-
 Private email: [gurukalyan1.618@gmail.com](mailto:gurukalyan1.618@gmail.com)
 
 Phone: +1-8582419743
@@ -23,7 +21,7 @@ Ph.D. Candidate in Theoretical Physics, University of California San Diego  (202
 
 ## Work Details 
 
-Address: Room 7258, Urey Hall, University of California San Diego, Department of Physics, 9500 Gilman Drive, La Jolla CA 92093, USA
+Address: University of California San Diego, Department of Physics, 9500 Gilman Drive, La Jolla CA 92093, USA
 
 Professional email:  [gjayasingh@ucsd.edu](mailto:gjayasingh@ucsd.edu) 
 
