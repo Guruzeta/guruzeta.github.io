@@ -23,7 +23,7 @@ I’m broadly interested in how ideas from **statistical physics** can illuminat
 
 I completed a Dual Degree (B.Tech + M.Tech) in Engineering Physics at **IIT Bombay**, specializing in nanoscience. I worked on problems in **quantum condensed matter** physics and **topological matter** with [Prof. Hridis Pal](https://sites.google.com/view/hridispal/home), and pursued additional research at Aalto University and the Tata Institute of Fundamental Research, Mumbai. While my master’s thesis focused on superconductivity and topology, the nanoscience component of my degree involved experimental work in nanofabrication and characterization. 
 
-> I am actively exploring **Summer 2026 internship roles** in **quantitative finance, data science, and machine learning**, where I can apply my background in theoretical physics and computational modeling.
+
 
 
 
