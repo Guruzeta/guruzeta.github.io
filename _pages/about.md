@@ -18,9 +18,9 @@ I am Guru, a 4th year graduate student advised by Prof. [Nigel Goldenfeld](https
 I’m broadly interested in how ideas from **statistical physics** can illuminate complex phenomena — from turbulence to collective behavior in systems both **in and out of equilibrium**. Some of the things that I'm interested in/working on are:
 
 - Statistical mechanics of transitional turbulence. [See our paper here](https://guruzeta.github.io/publication/2025-09-03-tricritical-dp-body-force) and [news article covering our work](https://today.ucsd.edu/story/turbulence-with-a-twist)
-- Stratified turbulence and transition to turbulence in such flows. [See here](https://guruzeta.github.io/publication/2026-03-30-stratified-turbulence-dp-transition)
+- Stratified turbulence and transition to turbulence in stably stratified flows. [See here](https://guruzeta.github.io/publication/2026-03-30-stratified-turbulence-dp-transition)
 - Wave turbulence and spontaneous stochasticity in turbulent flows.
-- Understanding the nature of optimization in machine learning, specifically the complexity-stabilty relationships that are hallmark of complex systems. [See this page](https://guruzeta.github.io/publication/2026-03-30-may-complexity-stability-neural-networks)
+- Understanding the nature of optimization in machine learning, specifically the complexity-stabilty tradeoff hallmark of complex systems. [See this page](https://guruzeta.github.io/publication/2026-03-30-may-complexity-stability-neural-networks)
 
 I completed a Dual Degree (B.Tech + M.Tech) in Engineering Physics at **IIT Bombay**, specializing in nanoscience. I worked on problems in **quantum condensed matter** physics and **topological matter** with [Prof. Hridis Pal](https://sites.google.com/view/hridispal/home), and pursued additional research at Aalto University and the Tata Institute of Fundamental Research, Mumbai. While my master’s thesis focused on superconductivity and topology, the nanoscience component of my degree involved experimental work in nanofabrication and characterization. 
 
