@@ -67,7 +67,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  /images/logo.png
+og_image                 :  /images/profile_2.jpg
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -78,7 +78,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 

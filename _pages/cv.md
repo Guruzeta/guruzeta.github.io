@@ -11,7 +11,6 @@ author_profile: true
 
 Private email: [gurukalyan1.618@gmail.com](mailto:gurukalyan1.618@gmail.com)
 
-Phone: +1-8582419743
 
 ## Present Position
 
@@ -111,21 +110,19 @@ Honors: **Institute Silver Medal**, **K.Seshia Research Excellence Award**, **In
 *Tata Institute of Fundamental Research, Mumbai (Rajdeep Sensarma) — 2020 – 2021*  
 
 - Investigated **self-consistent electron–phonon dynamics** within the **Keldysh formalism**, beyond the standard static-bath approximation.
-- Wrote extensive and modular Python (& Julia) codes for evolving the coupled system. Tested constituents by connecting them to baths and studying their equilibration characteristics starting from specific initial conditions. 
-- [Project page](https://guruzeta.github.io/sun/Electron-Phonon-Equilibration/)
+- Wrote extensive and modular Python (& Julia) codes for evolving the coupled system. Tested constituents by connecting them to baths and studying their equilibration characteristics starting from specific initial conditions.
 
 ### Fluctuations in Non-Centrosymmetric Superconductors  
 *Aalto Institute, Finland (Alexander Zyuzin) — 2020*  
 
 - Extended Ginzburg-Landau theory to spin–orbit-coupled superconductors **lacking inversion symmetry.**  
-- Analyzed fluctuation effects on magnetic susceptibility and specific heat near critical temperature.  
-- [Report](https://guruzeta.github.io/sun/Non-Centrosymmetric-superconductors/)
+- Analyzed fluctuation effects on magnetic susceptibility and specific heat near critical temperature.
 
 ### Characterizing Topological Insulator-Superconductor Junctions
 *IIT Bombay (Hridis K. Pal) — 2021 – 2022*  
 
 - Modeled superconductor–topological insulator and superconductor–metal junctions using quasi-classical Green’s function methods to study critical temperature, critical fields, and the influence of surface states on superconductivity.  
-- Derived a non-local Ginzburg–Landau functional for order parameter, and investigated the effects of topology in superconductor–topological insulator heterostructures. [Report](https://guruzeta.github.io/sun//Characterization-of-Superconducting-Junctions/)
+- Derived a non-local Ginzburg–Landau functional for order parameter, and investigated the effects of topology in superconductor–topological insulator heterostructures.
 
 ---
 
@@ -141,18 +138,16 @@ Honors: **Institute Silver Medal**, **K.Seshia Research Excellence Award**, **In
 
 - **Low-Rank Hypothesis of Complex Systems**  
   *University of California San Diego, Feb 2025*  
-  Discussed dimensional reduction and low-rank structure in complex systems.  
-  [Slides](https://guruzeta.github.io/sun/pdfs/Low%20Rank%20Hypothesis%20of%20Complex%20System_v1.5.pdf)
+  Discussed dimensional reduction and low-rank structure in complex systems.
+  [Slides](/files/Low_Rank_Hypothesis_v1.5.pdf)
 
 - **Aspects of Unconventional Superconductivity**  
   *Condensed Matter Journal Club, IIT Bombay, Aug 2022*  
-  Discussed classification of order parameters within a generalized BCS theory and nature of physical observables for different pairing symmetries.  
-  [Slides](https://guruzeta.github.io/sun/pdfs/USC_final_v.pdf)
+  Discussed classification of order parameters within a generalized BCS theory and nature of physical observables for different pairing symmetries.
 
 - **Bosonization and Applications**  
   *Condensed Matter Journal Club, IIT Bombay, Sept 2021*  
-  Two-part seminar deriving bosonization identities and their application to transport in Luttinger liquids.  
-  [Slides](https://guruzeta.github.io/sun/pdfs/Guru_slides.pdf)
+  Two-part seminar deriving bosonization identities and their application to transport in Luttinger liquids.
 
 ---
 
