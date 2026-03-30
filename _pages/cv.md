@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-[PDF version link](https://guruzeta.github.io/files/Guru_K_Jayasingh_CV_Nov_2025.pdf)
+[PDF version link](https://guruzeta.github.io/files/Guru_Kalyan_Jayasingh_Resume_Feb_2026.pdf)
 
 ## Personal Information
 
@@ -206,4 +206,4 @@ Honors: **Institute Silver Medal**, **K.Seshia Research Excellence Award**, **In
 
   Addressed over **100** college-level mathematics faculty from across India as part of an Advanced Pedagogy Workshop. The program, under the aegis of World Bank and the Government of India, aims to improve the quality of the technical education system in the country.
 
-_Last updated: November 2025_
+_Last updated: March 2026_
