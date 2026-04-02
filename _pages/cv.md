@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-[PDF version link](https://guruzeta.github.io/files/Guru_Kalyan_Jayasingh_Resume_Feb_2026.pdf)
+[PDF version link](https://guruzeta.github.io/files/Guru_K_Jayasingh_CV_Nov_2025.pdf)
 
 ## Personal Information
 
