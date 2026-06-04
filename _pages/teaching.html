@@ -1,21 +1,27 @@
 ---
-layout: single
+layout: archive
 title: "Teaching"
+subtitle: "Courses TA'd at UC San Diego and IIT Bombay."
+eyebrow: "Teaching"
 permalink: /teaching/
-author_profile: true
+author_profile: false
 ---
 
-<!-- {% include base_path %}
+{% include base_path %}
 
+<ul class="v3-list">
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
-
-
-
-{% for post in site.teaching reversed %}
-  <article class="teaching-entry" style="margin-bottom: 2.5rem;">
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    {{ post.content }}
-  </article>
+  <li>
+    <div class="v3-meta">
+      {% if post.type %}{{ post.type }}{% endif %}{% if post.venue %} · {{ post.venue }}{% endif %}{% if post.date %} · {{ post.date | date: "%Y" }}{% endif %}
+    </div>
+    <div class="v3-title">
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+    </div>
+    {% if post.excerpt %}
+      <div class="v3-blurb">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</div>
+    {% endif %}
+    <div class="v3-actions"><a href="{{ base_path }}{{ post.url }}">Details</a></div>
+  </li>
 {% endfor %}
+</ul>

@@ -1,209 +1,66 @@
 ---
-title: "Curriculum Vitae"
+layout: site
 permalink: /cv/
-layout: single
-author_profile: true
+title: "Curriculum Vitae"
+sitemap: true
 ---
-
-[PDF version link](https://guruzeta.github.io/files/Guru_K_Jayasingh_CV_Nov_2025.pdf)
-
-## Personal Information
-
-Private email: [gurukalyan1.618@gmail.com](mailto:gurukalyan1.618@gmail.com)
-
-
-## Present Position
-
-Ph.D. Candidate in Theoretical Physics, University of California San Diego  (2022--present)
-
-----
-
-## Work Details 
-
-Address: University of California San Diego, Department of Physics, 9500 Gilman Drive, La Jolla CA 92093, USA
-
-Professional email:  [gjayasingh@ucsd.edu](mailto:gjayasingh@ucsd.edu) 
-
-----
-
-## Honors and Achievements
-
-- **Institute Silver Medal**, IIT Bombay (2022) – Awarded to the **top-ranked student** in the graduating class of each academic program.  
-- **K. Seshia Research Excellence Award**, IIT Bombay (2022) – Given to the **best Master’s thesis in Physics** for research originality and rigor.  
-- **Received the Physics Excellence Award** from the Department of Physics at the University of California San Diego.
-- **Institute Academic Prizes**, IIT Bombay (2019, 2021) – Annual award for the **highest GPA in the Physics Department**.  
-- **Aalto Science Institute (AScI) Fellowship**, Finland (2020) – International research fellowship for top students in science and engineering.  
-- **Indian Young Physicists’ League (IYPL)** – **All-India Rank 3** (2021), national theoretical physics competition.  
-- **KVPY Fellowship**, Department of Science & Technology, India (2017) – Prestigious **national fellowship** for the top ~1% of science students with research potential.  
-
----
-
-## Professional Experience
-
-**Graduate Researcher (Ph.D. Student)** — *University of California San Diego, USA*  
-*Sept 2022 – Present*  
-
-- Conducting research with Prof. Nigel Goldenfeld on the statistical mechanics of turbulence and 
-  non-equilibrium phase transitions.  
-- Demonstrated that the laminar–turbulent transition in pipe flows with body forces is governed by **tricritical directed percolation**, published in *Physical Review Letters*.  
-- Currently working on problems related to **wave turbulence, transitions to turbulence in shear-flows, and stochasticity in turbulent fluids.**
-
-**Undergraduate & Master’s Researcher** — *Indian Institute of Technology Bombay, India*  
-*Aug 2021 – Aug 2022*  
-
-- Completed Dual Degree *(B.Tech + M.Tech)* in Engineering Physics with specialization in Nanoscience.  
-- Master’s thesis: *Topological Insulator–Superconductor Junctions* under Prof. Hridis K. Pal.  
-- Conducted theoretical and computational work on superconductivity and topological quantum matter.  
-
-**Research Intern** — *Tata Institute of Fundamental Research (TIFR), Mumbai, India*  
-*Feb 2020 – Sept 2021*  
-
-- Worked with Prof. Rajdeep Sensarma on electron–phonon equilibration within Keldysh field-theoretic framework.  
-
-**Research Intern** — *Aalto Science Institute (AScI), Finland*  
-*Apr 2020 – May 2021*  
-- Selected for the prestigious AScI International Internship Program.  
-- Investigated fluctuations in non-centrosymmetric superconductors under Dr. Alexander Zyuzin, studying the effects of spin–orbit coupling on thermodynamic observables.
-- Extended this work into my bachelor’s thesis, which also investigated odd-parity superconductors.
-
-**Research Intern** — *National Institute of Science Education and Research (NISER), Bhubaneswar, India*  
-*May 2018 – Aug 2018*  
-
-- Supervised by Dr. Sutanu Roy; studied Banach spaces, fixed-point theorems, and mathematical formulations of Google’s PageRank algorithm.  
-
----
-
-## Research Interests
-
-**Fluid Mechanics and Turbulence** · **Non-Equilibrium Statistical Mechanics** · **Condensed Matter** · **Machine learning for physical sciences** · **AI for physics**
-
-## Publications
-
-- **G. K. Jayasingh & N. Goldenfeld (2025)** — *Tricritical directed percolation controls the laminar–turbulent transition in pipes with body forces*, _Physical Review Letters_ (2025).  
-- **S. Chakraborty, G. K. Jayasingh, H. Pal (2025)** — *Topological bound states inhibit superconducting order in quasi-one-dimensional heterostructures* _(manuscript in preparation)._
-
----
-
-## Education
-
-**University of California San Diego (UCSD)** — Ph.D. in Physics *(2022–present)*  
-Advisor: **Prof. Nigel Goldenfeld**  
-Focus: **Statistical Mechanics of Turbulent Phenomena**
-
-**Indian Institute of Technology Bombay (IIT Bombay)** — Dual Degree (B.Tech + M.Tech) in Engineering Physics *(2017–2022)*  
-Specialization: Nanoscience · GPA 9.44 / 10  
-Honors: **Institute Silver Medal**, **K.Seshia Research Excellence Award**, **Institute Academic Prizes** (2019, 2021)
-
----
-
-## Research Experience
-
-### Transition to Fluid Turbulence as an Ecological Phase Transition  
-*UC San Diego, with Nigel Goldenfeld — Sept 2023 – Present*  
-
-- Developed a **stochastic model** to describe the laminar-to-turbulent transition as a **non-equilibrium phase transition** in flows with body forces.  
-- Predicted a **tricritical fixed point** governing turbulence in curved and heated pipes.  
-- Constructed a **phase diagram** linking body-force strength to directed-percolation universality classes.  
-- Provided **scaling predictions** for future experimental verification.
-
-### Electron–Phonon Equilibration via Keldysh Field Theory  
-*Tata Institute of Fundamental Research, Mumbai (Rajdeep Sensarma) — 2020 – 2021*  
-
-- Investigated **self-consistent electron–phonon dynamics** within the **Keldysh formalism**, beyond the standard static-bath approximation.
-- Wrote extensive and modular Python (& Julia) codes for evolving the coupled system. Tested constituents by connecting them to baths and studying their equilibration characteristics starting from specific initial conditions.
-
-### Fluctuations in Non-Centrosymmetric Superconductors  
-*Aalto Institute, Finland (Alexander Zyuzin) — 2020*  
-
-- Extended Ginzburg-Landau theory to spin–orbit-coupled superconductors **lacking inversion symmetry.**  
-- Analyzed fluctuation effects on magnetic susceptibility and specific heat near critical temperature.
-
-### Characterizing Topological Insulator-Superconductor Junctions
-*IIT Bombay (Hridis K. Pal) — 2021 – 2022*  
-
-- Modeled superconductor–topological insulator and superconductor–metal junctions using quasi-classical Green’s function methods to study critical temperature, critical fields, and the influence of surface states on superconductivity.  
-- Derived a non-local Ginzburg–Landau functional for order parameter, and investigated the effects of topology in superconductor–topological insulator heterostructures.
-
----
-
-## Talks and Presentations
-
-- **Laminar–Turbulent Transition in Pipes with Body Forces: Continuous, Discontinuous, or Both?**  
-  *APS Joint March & April Meeting, Global Physics Summit 2025, Anaheim, CA*  
-  Presented results on **tricritical turbulence scaling** in flows under body forces.
-
-- **Tricritical Directed Percolation and Transitional Turbulence**  
-  *Joint Institute for Fusion Theory (JIFT) Workshop, UC San Diego, 2025*  
-  Invited talk on statistical mechanics of turbulence and universality in boundary-driven flows.
-
-- **Low-Rank Hypothesis of Complex Systems**  
-  *University of California San Diego, Feb 2025*  
-  Discussed dimensional reduction and low-rank structure in complex systems.
-  [Slides](/files/Low_Rank_Hypothesis_v1.5.pdf)
-
-- **Aspects of Unconventional Superconductivity**  
-  *Condensed Matter Journal Club, IIT Bombay, Aug 2022*  
-  Discussed classification of order parameters within a generalized BCS theory and nature of physical observables for different pairing symmetries.
-
-- **Bosonization and Applications**  
-  *Condensed Matter Journal Club, IIT Bombay, Sept 2021*  
-  Two-part seminar deriving bosonization identities and their application to transport in Luttinger liquids.
-
----
-
-## Teaching and Academic Service
-
-**Teaching Assistant**, University of California San Diego, Department of Physics (2022–Present)
-
-- Supported **undergraduate** and **graduate** courses including
-
-  - Emergent States of Matter (Twice) (Graduate course given by Prof. Nigel Goldenfeld)
-  - Phys 1 and 2 series (Undergraduate courses on college-level physics covering topics ranging from Mechanics, Electromagnetism to hands-on labs covering Waves and Oscillations).
-
-  This involved leading weekly discussion sections to reinforce lecture material and guide students through advanced problem sets, holding office hours, and assisting faculty with grading and logistics.
-
-**Teaching Assistant**, Indian Institute of Technology Bombay  
-
-- Served as a teaching assistant for **undergraduate** and **graduate** courses including
-  - Statistical Physics 
-  - Advanced Statistical Mechanics
-  - Complex Analysis
-  - Electromagnetism  
-
-- Conducted weekly tutorial sessions and assisted the instructors with examinations, grading, and curating practice problems to strengthen student learning outcomes.
-
----
-
-## Leadership and Organization
-
-**Manager**, Maths & Physics Club, IIT Bombay (2019–2020)  
-
-- Led a 5-member team organizing lectures, workshops, and outreach for a **400-member campus community** and **9,000+ online followers**.  
-- Coordinated visits such as to the Atomic Physics and Quantum Optics Lab at IISER Pune and managed campus-wide experimental physics competitions.
-
----
-
-## Technical Skills
-
-- **Programming:** Python  · C/C++ (working familiarity) · PyTorch  
-- **Libraries:** NumPy · SciPy · scikit-learn · Pandas · Numba · Matplotlib · Seaborn  
-- **Tools:** LaTeX · Mathematica · Git · Jupyter · Markdown
-- **Methods:** Stochastic Modeling · Monte Carlo Simulation · **Machine Learning** · Statistical Analysis
-
----
-
-## Selected Coursework
-
-- **Physics:** Advanced Statistical Mechanics · Condensed Matter Theory · Quantum Field Theory · Topological Aspects of Quantum Matter · Nonlinear Dynamics  
-- **Mathematics:** Group Theory · Complex Analysis · Differential Equations · Numerical Analysis  
-- **Computational:** Machine learning · Programming · Data Analysis
-
----
-
-## Extracurricular and Outreach
-
-- Invited speaker for *“Why a Maths and Physics Club?”* — Advanced Pedagogy Workshop (TEQIP-KITE III, 2019)  
-
-  Addressed over **100** college-level mathematics faculty from across India as part of an Advanced Pedagogy Workshop. The program, under the aegis of World Bank and the Government of India, aims to improve the quality of the technical education system in the country.
-
-_Last updated: March 2026_
+{% include base_path %}
+<style>
+  .cv2-wrap { max-width:1100px; margin:0 auto; padding:48px 32px 96px; display:grid; grid-template-columns:260px 1fr; gap:48px; font-family:'Inter', sans-serif; color:#1a1a1a; }
+  .cv2-side { position:sticky; top:80px; align-self:start; }
+  .cv2-side h1 { font-family:'Source Serif 4', serif; font-size:26px; margin:0 0 6px; letter-spacing:-0.01em; }
+  .cv2-side p.sub { color:#666; font-size:14px; margin:0 0 16px; }
+  .cv2-side .ctas { display:flex; flex-direction:column; gap:8px; margin-bottom:18px; }
+  .cv2-side .ctas a { padding:8px 12px; border:1px solid #ddd; border-radius:6px; text-decoration:none; font-size:13px; color:#1a1a1a; font-weight:500; }
+  .cv2-side .ctas a.primary { background:#1a1a1a; color:#fff; border-color:#1a1a1a; }
+  .cv2-side nav.toc a { display:block; padding:6px 0; font-size:13px; color:#666; text-decoration:none; border-left:2px solid transparent; padding-left:10px; }
+  .cv2-side nav.toc a:hover { color:#1a1a1a; border-left-color:var(--accent); }
+  .cv2-main section { padding:24px 0; border-bottom:1px solid #eee; }
+  .cv2-main section:last-of-type { border-bottom:0; }
+  .cv2-main h2 { font-family:'Source Serif 4', serif; font-size:22px; font-weight:600; margin:0 0 14px; letter-spacing:-0.01em; }
+  .cv2-main [data-role] { padding:10px 0; }
+  .cv2-main [data-role] header { display:flex; flex-wrap:wrap; gap:6px 14px; align-items:baseline; margin-bottom:4px; font-size:15px; }
+  .cv2-main [data-role] header .when { margin-left:auto; font-family:'JetBrains Mono', monospace; font-size:12px; color:#888; }
+  .cv2-main ul { margin:6px 0; padding-left:20px; font-size:14.5px; color:#333; line-height:1.6; }
+  .cv2-main a { color:var(--accent); text-decoration:none; }
+  .cv2-main .cv-updated { color:#888; font-size:13px; margin-top:24px; }
+  @media (max-width:880px){ .cv2-wrap{grid-template-columns:1fr;} .cv2-side{position:static;} }
+</style>
+<div class="cv2-wrap">
+  <aside class="cv2-side">
+    <h1>Guru Kalyan Jayasingh</h1>
+    <p class="sub">Ph.D. Candidate, Theoretical Physics · UC San Diego</p>
+    <div class="ctas">
+      <a class="primary" href="{{ base_path }}/files/Guru_K_Jayasingh_CV_Nov_2025.pdf">Download PDF</a>
+      <a href="mailto:gjayasingh@ucsd.edu">Email</a>
+    </div>
+    <nav class="toc">
+      <a href="#position">Present Position</a>
+      <a href="#honors">Honors</a>
+      <a href="#experience">Experience</a>
+      <a href="#publications">Publications</a>
+      <a href="#education">Education</a>
+      <a href="#research">Research</a>
+      <a href="#talks">Talks</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#skills">Skills</a>
+      <a href="#coursework">Coursework</a>
+    </nav>
+  </aside>
+
+  <div class="cv2-main">
+    {% capture cv %}{% include cv-content.html %}{% endcapture %}
+    {{ cv
+      | replace: 'data-cv="position"',     'id="position" data-cv="position"'
+      | replace: 'data-cv="honors"',       'id="honors" data-cv="honors"'
+      | replace: 'data-cv="experience"',   'id="experience" data-cv="experience"'
+      | replace: 'data-cv="publications"', 'id="publications" data-cv="publications"'
+      | replace: 'data-cv="education"',    'id="education" data-cv="education"'
+      | replace: 'data-cv="research"',     'id="research" data-cv="research"'
+      | replace: 'data-cv="talks"',        'id="talks" data-cv="talks"'
+      | replace: 'data-cv="teaching"',     'id="teaching" data-cv="teaching"'
+      | replace: 'data-cv="skills"',       'id="skills" data-cv="skills"'
+      | replace: 'data-cv="coursework"',   'id="coursework" data-cv="coursework"'
+    }}
+  </div>
+</div>

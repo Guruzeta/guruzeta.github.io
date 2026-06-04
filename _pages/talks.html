@@ -1,16 +1,30 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks & presentations"
+subtitle: "Conference talks, seminars, and invited presentations."
+eyebrow: "Talks"
 permalink: /talks/
-author_profile: true
+author_profile: false
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
+<ul class="v3-list">
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  <li>
+    <div class="v3-meta">
+      {% if post.venue %}{{ post.venue }}{% endif %}{% if post.location %} · {{ post.location }}{% endif %}{% if post.date %} · {{ post.date | date: "%b %Y" }}{% endif %}
+    </div>
+    <div class="v3-title">
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+    </div>
+    {% if post.excerpt %}
+      <div class="v3-blurb">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</div>
+    {% endif %}
+    <div class="v3-actions">
+      <a href="{{ base_path }}{{ post.url }}">Details</a>
+      {% if post.talk_url %}<a href="{{ post.talk_url }}">Slides / link</a>{% endif %}
+    </div>
+  </li>
 {% endfor %}
+</ul>

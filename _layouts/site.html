@@ -1,0 +1,61 @@
+---
+layout: compress
+---
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+  {% include v3-style.html %}
+  <meta name="view-transition" content="same-origin">
+  <style>
+    /* fade page-load and page-leave */
+    @keyframes v3-fade-in  { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes v3-fade-out { from { opacity: 1; } to { opacity: 0; transform: translateY(-4px); } }
+    main { animation: v3-fade-in .7s cubic-bezier(.2,.7,.2,1) both; }
+    body.is-leaving main { animation: v3-fade-out .45s ease forwards; }
+
+    /* native View Transitions where supported */
+    @media (prefers-reduced-motion: no-preference) {
+      ::view-transition-old(root) { animation: v3-fade-out .45s ease both; }
+      ::view-transition-new(root) { animation: v3-fade-in  .7s cubic-bezier(.2,.7,.2,1) both; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      main, body.is-leaving main { animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+  {% include v3-nav.html %}
+  <main>{{ content }}</main>
+  {% include v3-foot.html %}
+  {% include scripts.html %}
+  <script>
+    (function(){
+      var supportsVT = !!document.startViewTransition;
+      function sameOrigin(url){
+        try { var u = new URL(url, location.href); return u.origin === location.origin; } catch(e){ return false; }
+      }
+      document.addEventListener('click', function(e){
+        var a = e.target.closest && e.target.closest('a');
+        if (!a) return;
+        var href = a.getAttribute('href');
+        if (!href || href[0] === '#') return;
+        if (a.target && a.target !== '' && a.target !== '_self') return;
+        if (a.hasAttribute('download')) return;
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+        if (!sameOrigin(a.href)) return;
+        // skip PDFs (browser handles)
+        if (/\.(pdf|zip|png|jpg|jpeg|gif|svg)$/i.test(a.pathname)) return;
+        if (supportsVT) return; // browser handles via meta + ::view-transition
+        e.preventDefault();
+        document.body.classList.add('is-leaving');
+        setTimeout(function(){ window.location.href = a.href; }, 380);
+      }, false);
+      // restore on bfcache return
+      window.addEventListener('pageshow', function(){ document.body.classList.remove('is-leaving'); });
+    })();
+  </script>
+</body>
+</html>
