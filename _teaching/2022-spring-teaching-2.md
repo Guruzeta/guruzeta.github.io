@@ -1,8 +1,8 @@
 ---
-title: "At University of San Diego California"
+title: "At University of California San Diego"
 collection: teaching
 type: "Undergraduate and Graduate courses"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /teaching/2022-fall-teaching-1
 venue: "UCSD, Dept. of Physics"
 date: 2022-10-10
 location: "La Jolla, San Diego"

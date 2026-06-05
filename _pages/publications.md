@@ -1,13 +1,11 @@
 ---
 layout: archive
 title: "Research"
-subtitle: "Published work, preprints, and projects-in-progress on statistical mechanics, turbulence, and machine-learning theory."
+subtitle: "Published work, preprints, and projects-in-progress on statistical mechanics, turbulence, and complexity-stability."
 eyebrow: "Publications"
 permalink: /publications/
 author_profile: false
 ---
-
-{% include base_path %}
 
 <ul class="v3-list">
 {% for post in site.publications reversed %}
@@ -16,13 +14,13 @@ author_profile: false
       {% if post.venue %}{{ post.venue }}{% endif %}{% if post.date %} · {{ post.date | date: "%Y" }}{% endif %}
     </div>
     <div class="v3-title">
-      <a href="{{ base_path }}{{ post.url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
     </div>
     {% if post.excerpt %}
       <div class="v3-blurb">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</div>
     {% endif %}
     <div class="v3-actions">
-      <a href="{{ base_path }}{{ post.url }}">Details</a>
+      <a href="{{ post.url | relative_url }}">Details</a>
       {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
 
       {% comment %} per-paper extras {% endcomment %}
@@ -35,6 +33,6 @@ author_profile: false
 {% endfor %}
 </ul>
 
-<p style="margin-top:32px; color:var(--muted); font-size:14px;">
+<p style="margin-top:32px; color:var(--muted); font-size:15px;">
 For collaboration or reprint requests, email <a href="mailto:gjayasingh@ucsd.edu">gjayasingh@ucsd.edu</a>.
 </p>

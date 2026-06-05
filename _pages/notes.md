@@ -1,26 +1,17 @@
 ---
 title: "Notes"
 permalink: /notes/
-layout: single        # Minimal Mistakes page layout
-author_profile: true  # shows your sidebar profile
-toc: true             # optional: auto table of contents
-toc_sticky: true      # optional: sticky TOC on desktop 
+layout: archive
+subtitle: "Lecture-style notes and working references, now maintained as part of the blog."
+eyebrow: "Writing"
+author_profile: false
 ---
 
-This page collects my notes across topics—summaries of things I found important or non-trivial while learning. Since research is non-linear, the notes often wander or end abruptly. Any errors are from my past misunderstandings. Cheers!
+<p style="color:var(--muted); margin-top:0;">
+The active notes page now lives in the blog section.
+</p>
 
-- [Topology in Condensed Matter](https://guruzeta.github.io/files/cheat_sheet.pdf)
-- [Spontaneous symmetry breaking](https://guruzeta.github.io/files/ssb.pdf)
-- [Topological Defects](https://guruzeta.github.io/files/top_defects.pdf)
-- [Floquet systems](https://guruzeta.github.io/files/floquet.pdf)
-- [Cahn Hilliard calculus](https://guruzeta.github.io/files/cahn_hilliard.pdf)
-- [Misc. on Landau theory](https://guruzeta.github.io/files/landau_theory.pdf)
-
-
-
-
-
-
-
-
-
+<p>
+  <a class="v3-btn primary" href="{{ '/blog/notes/' | relative_url }}">Open Notes</a>
+  <a class="v3-btn" href="{{ '/blog/' | relative_url }}">All Blog Posts</a>
+</p>

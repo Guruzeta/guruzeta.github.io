@@ -2,7 +2,7 @@
 title: "At Indian Institute of Technology Bombay"
 collection: teaching
 type: "Undergraduate +  Graduate courses"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/2019-spring-teaching-1
 venue: "In person and Online"
 date: 2019-01-01
 location: "Mumbai, India"

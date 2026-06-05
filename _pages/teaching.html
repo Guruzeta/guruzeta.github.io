@@ -7,8 +7,6 @@ permalink: /teaching/
 author_profile: false
 ---
 
-{% include base_path %}
-
 <ul class="v3-list">
 {% for post in site.teaching reversed %}
   <li>
@@ -16,12 +14,12 @@ author_profile: false
       {% if post.type %}{{ post.type }}{% endif %}{% if post.venue %} · {{ post.venue }}{% endif %}{% if post.date %} · {{ post.date | date: "%Y" }}{% endif %}
     </div>
     <div class="v3-title">
-      <a href="{{ base_path }}{{ post.url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
     </div>
     {% if post.excerpt %}
       <div class="v3-blurb">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</div>
     {% endif %}
-    <div class="v3-actions"><a href="{{ base_path }}{{ post.url }}">Details</a></div>
+    <div class="v3-actions"><a href="{{ post.url | relative_url }}">Details</a></div>
   </li>
 {% endfor %}
 </ul>

@@ -1,0 +1,187 @@
+/* =====================================================================
+   Legacy stylesheet source, shelved from Jekyll output.
+
+   This file intentionally has no YAML front matter. Without front matter,
+   Jekyll keeps it as source history and does not compile it into the
+   rebuilt site shell.
+
+   Guru Kalyan Jayasingh — Minimal Mistakes (Light)
+   Fonts + visible sidebar + larger social buttons
+   ===================================================================== */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@600;700&display=swap');
+
+/* ---------- Variables (must be BEFORE theme imports) ---------- */
+$sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+$serif: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+
+$global-font-size: 17px;
+$body-line-height: 1.75;
+$header-font-weight: 700;
+
+/* text + links for light theme */
+$body-color: #222;
+$link-color: #1565c0;
+$link-color-hover: darken($link-color, 8%);
+
+/* 👇 crucial: affects location row and other muted sidebar text */
+$muted-text-color: #555;   /* was too light before */
+$text-color: #222;
+$background-color: #fff;
+
+/* ---------- Theme imports (do not reorder) ---------- */
+@import "vendor/breakpoint/breakpoint";
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+@import "forms";
+@import "page";
+@import "archive";
+@import "sidebar";
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+/* ---------- Global tweaks ---------- */
+body {
+  font-family: $sans-serif;
+  font-size: $global-font-size;
+  line-height: $body-line-height;   /* fixed variable name */
+  color: $body-color;
+  background-color: $background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif;
+  font-weight: $header-font-weight;
+  color: #111;
+  letter-spacing: 0.3px;
+}
+
+a { color: $link-color; text-decoration: none; }
+a:hover { color: $link-color-hover; text-decoration: underline; }
+
+p { color: #333; }
+
+.page__content { line-height: 1.75; font-size: 17px; }
+
+/* ---------- Sidebar / Profile ---------- */
+
+/* Make ALL entries readable on light skin, including non-links (location) */
+.author__urls { color: #333; }                /* base color for list */
+.author__urls li { color: #333; }             /* plain <li>, e.g., location */
+.author__location { color: #333 !important; } /* location row specifically */
+
+/* Links styling + size boost */
+.author__urls a {
+  color: #333 !important;
+  font-size: 1.05rem;          /* bigger labels */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.author__urls a:hover {
+  color: $link-color !important;
+  transform: scale(1.05);
+}
+
+/* Enlarge icons (email, LinkedIn, GitHub, etc.) */
+.author__urls i {
+  font-size: 1.15rem !important;  /* ~30% bigger */
+  vertical-align: middle;
+}
+
+/* A touch more spacing between rows */
+.author__urls li { margin-bottom: 0.35rem; }
+
+/* ---------- CV page / Bullet visibility fix ---------- */
+
+/* Make bullets and list markers visible in light mode */
+.page__content ul,
+.page__content ol {
+  color: #111 !important;
+}
+
+.page__content ul li::marker,
+.page__content ol li::marker {
+  color: #111 !important;
+}
+
+/* Adjust spacing and indentation for readability */
+.page__content ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1.25rem;
+}
+
+.page__content ol {
+  list-style-position: outside;
+  padding-left: 1.25rem;
+}
+
+
+
+
+/* --- Fix list indentation on archive-style pages (Teaching) --- */
+.archive .entry-content ul,
+.archive .entry-content ol {
+  list-style: disc;
+  list-style-position: outside;
+  margin-left: 1.5rem;  /* pulls bullets into view */
+  padding-left: 0;      /* optional: keeps it tidy */
+}
+
+.archive .entry-content li::marker {
+  color: #111;
+}
+
+
+/* === Navigation bar font size and spacing === */
+.masthead__menu-item a {
+  font-size: 1.05rem;   /* increase/decrease as needed */
+  font-weight: 600;     /* makes it a bit bolder (optional) */
+  letter-spacing: 0.2px;
+}
+
+.masthead__menu {
+  gap: 1rem;            /* increases spacing between menu items */
+}
+
+
+
+/* === Sidebar Author Name Styling === */
+.author__name {
+  font-size: 1.35rem;     /* increase size (default ~1.1rem) */
+  font-weight: 700;       /* make it bold */
+  color: #111;            /* darker for contrast */
+  letter-spacing: 0.3px;  /* subtle spacing for elegance */
+  margin-bottom: 0.25rem; /* reduces gap before next line */
+}
+
+.author__content a,
+.author__urls a {
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.sidebar a {
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
+}

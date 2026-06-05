@@ -22,7 +22,7 @@ I’m pleased to share that my recent paper, written with Prof. Nigel Goldenfeld
 <div style="margin:36px 0; padding:24px 26px; border:1px solid var(--rule); border-left:4px solid var(--accent); border-radius:8px; background:var(--soft);">
   <div style="font-family:'JetBrains Mono', monospace; font-size:11px; letter-spacing:0.18em; text-transform:uppercase; color:var(--accent); font-weight:600; margin-bottom:8px;">Interactive · ask the paper</div>
   <h3 style="font-family:'Source Serif 4', serif; margin:0 0 8px; font-size:22px; font-weight:600;">Talk to the paper directly</h3>
-  <p style="margin:0 0 14px; color:#333; font-size:15px; line-height:1.6;">
+  <p style="margin:0 0 14px; color:var(--ink); font-size:15px; line-height:1.6;">
   I built a custom GPT trained on the full paper so anyone — physicist or not — can ask questions, push back on claims, request a plain-language summary, or probe specific equations. No background needed; treat it like a conversation with the work itself.
   </p>
   <p style="margin:0 0 6px; color:var(--muted); font-size:13px;">Try asking it:</p>
@@ -32,14 +32,10 @@ I’m pleased to share that my recent paper, written with Prof. Nigel Goldenfeld
     <li>"Where in the derivation might a skeptic push back?"</li>
   </ul>
   <a href="https://chatgpt.com/g/g-68e699d7b85881918b87e4fae3b4f8c9-tricritical-dp-in-laminar-turbulent-transition"
-     style="display:inline-block; padding:10px 16px; background:var(--ink); color:#fff; border-radius:6px; text-decoration:none; font-size:13px; font-weight:600; border:1px solid var(--ink);">
+     style="display:inline-block; padding:10px 16px; background:var(--ink); color:var(--on-ink); border-radius:6px; text-decoration:none; font-size:13px; font-weight:600; border:1px solid var(--ink);">
     Open the paper-GPT →
   </a>
   <span style="display:block; margin-top:10px; font-size:12px; color:var(--muted);">Runs on ChatGPT. Free account required.</span>
-
-
-
-
-
+</div>
 
 
