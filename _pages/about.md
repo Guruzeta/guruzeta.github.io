@@ -49,6 +49,35 @@ redirect_from:
   .home-prose a { color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; transition:border-color .15s; }
   .home-prose a:hover { border-color:var(--accent); }
 
+  /* --- credentials --- */
+  .home-creds { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:0; }
+  .home-cred {
+    border:1px solid var(--rule); border-radius:8px; padding:18px 20px;
+    display:grid; grid-template-columns:48px 1fr; gap:14px; align-items:center;
+    background:var(--panel);
+  }
+  .home-cred-logo {
+    width:48px; height:48px; border-radius:10px; object-fit:contain;
+    background:#fff; border:1px solid var(--rule); padding:5px;
+  }
+  .home-cred .label {
+    font-family:'JetBrains Mono', monospace; font-size:11px; letter-spacing:0.15em;
+    text-transform:uppercase; color:var(--accent); font-weight:600; margin:0 0 4px;
+  }
+  .home-cred h3 {
+    font-family:'Source Serif 4', serif; font-size:20px; line-height:1.25;
+    font-weight:600; color:var(--ink); margin:0 0 4px;
+  }
+  .home-cred p { color:var(--muted); font-size:14px; line-height:1.5; margin:0; }
+  .home-awards { margin-top:18px; padding-top:18px; border-top:1px solid var(--rule); }
+  .home-awards-row { display:flex; flex-wrap:wrap; gap:8px; }
+  .home-award {
+    display:inline-flex; align-items:center; gap:7px; padding:7px 11px;
+    border:1px solid var(--rule); border-radius:999px; background:var(--soft);
+    color:var(--ink); font-size:13px; font-weight:500; line-height:1.35;
+  }
+  .home-award strong { font-weight:700; }
+
   /* --- news --- */
   .home-news { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; }
   .home-news li { display:grid; grid-template-columns:110px 1fr; gap:24px; align-items:baseline; padding:14px 0; border-bottom:1px solid var(--rule); }
@@ -90,6 +119,7 @@ redirect_from:
 
   @media (max-width:780px){
     .home-h1 { font-size:42px; }
+    .home-creds { grid-template-columns:1fr; }
   }
 </style>
 
@@ -109,6 +139,37 @@ redirect_from:
   <a class="home-btn" href="{{ '/files/Guru_Jayasingh_CV.pdf' | relative_url }}">Academic CV</a>
   <a class="home-btn" href="mailto:gjayasingh@ucsd.edu">Email</a>
 </div>
+
+<section class="home-sec" style="margin-top:0;">
+  <h2>Affiliations &amp; Honors</h2>
+  <div class="home-creds">
+    <div class="home-cred">
+      <img class="home-cred-logo" src="{{ '/images/ucsd_seal.png' | relative_url }}" alt="UC San Diego seal">
+      <div>
+        <p class="label">Current</p>
+        <h3>UC San Diego Physics</h3>
+        <p>Physics Ph.D. Candidate working on turbulence, phase transitions, and complex systems.</p>
+      </div>
+    </div>
+    <div class="home-cred">
+      <img class="home-cred-logo" src="{{ '/images/iitb_logo.svg' | relative_url }}" alt="IIT Bombay logo">
+      <div>
+        <p class="label">Education</p>
+        <h3>IIT Bombay</h3>
+        <p>Dual Degree in Engineering Physics, B.Tech + M.Tech, with specialization in Nanoscience.</p>
+      </div>
+    </div>
+  </div>
+  <div class="home-awards">
+    <div class="home-awards-row">
+      <span class="home-award"><strong>Institute Silver Medal</strong> · IIT Bombay</span>
+      <span class="home-award"><strong>Best Master's Thesis</strong> · K. Seshia Research Excellence Award</span>
+      <span class="home-award"><strong>Physics Excellence Award</strong> · UC San Diego</span>
+      <span class="home-award"><strong>Institute Academic Prizes</strong> · IIT Bombay</span>
+      <span class="home-award"><strong>KVPY Scholarship</strong> · Department of Science &amp; Technology, India</span>
+    </div>
+  </div>
+</section>
 
 <section class="home-sec home-prose">
   <h2>About</h2>
