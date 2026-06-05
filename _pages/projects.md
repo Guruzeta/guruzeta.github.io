@@ -42,8 +42,8 @@ sitemap: true
 
 <div class="proj-head">
   <h1 class="proj-h1">Research + Applied Projects</h1>
-  <p class="proj-intro">Current work in turbulence, non-equilibrium phase transitions, and complexity-stability, followed by selected applied modeling projects. This is the bridge between the academic research page and the more implementation-focused resume.</p>
-  <p class="proj-intro" style="margin:0;"><a href="{{ '/publications/' | relative_url }}">See Research</a> for papers and project pages; <a href="{{ '/files/Guru_Jayasingh_Resume.pdf' | relative_url }}">download the resume</a> for the compact applied version.</p>
+  <p class="proj-intro">Current work in turbulence, non-equilibrium phase transitions, and complexity-stability, followed by selected applied modeling projects. This page pairs research directions with implementation-heavy work in scientific and statistical modeling.</p>
+  <p class="proj-intro" style="margin:0;"><a href="{{ '/publications/' | relative_url }}">See Research</a> for papers and project pages; <a href="{{ '/files/Guru_Jayasingh_Resume.pdf' | relative_url }}">download the resume</a> for a compact summary.</p>
 </div>
 
 <div class="proj-list">
@@ -113,7 +113,7 @@ sitemap: true
     <ul class="evidence">
       <li><strong>Physics/data:</strong> vibration response, excitation forcing, and frequency-domain damage signatures.</li>
       <li><strong>ML role:</strong> forecast healthy dynamics, then use residuals and spectral features as damage signals.</li>
-      <li><strong>Recruiting signal:</strong> large time-series pipeline, model evaluation, and interpretable anomaly separation.</li>
+      <li><strong>Analysis:</strong> residual-based anomaly detection and spectral classification separate healthy and damaged structural states.</li>
     </ul>
     <div class="stack">
       <span class="chip">Python</span><span class="chip">PyTorch (LSTM)</span><span class="chip">scikit-learn</span><span class="chip">SciPy (Welch PSD/FFT)</span><span class="chip">NumPy</span><span class="chip">Pandas</span>
@@ -131,7 +131,7 @@ sitemap: true
     <ul class="evidence">
       <li><strong>Physics/data:</strong> high-dimensional coupled physiological time series with session-level distribution shift.</li>
       <li><strong>ML role:</strong> recurrent forecasting with graph structure and scheduled sampling for stable rollouts.</li>
-      <li><strong>Recruiting signal:</strong> fast modeling under leaderboard constraints, baseline comparison, and generalization testing.</li>
+      <li><strong>Evaluation:</strong> baseline comparison, leaderboard-style benchmarking, and tests of session-to-session generalization.</li>
     </ul>
     <div class="stack">
       <span class="chip">Python</span><span class="chip">PyTorch (GRU)</span><span class="chip">Graph Convolutions</span><span class="chip">NumPy</span><span class="chip">Pandas</span>
@@ -141,7 +141,7 @@ sitemap: true
   <div class="proj-card">
     <div class="top">
       <span class="kind">Data Science · Housing Economics</span>
-      <span class="status">Resume project</span>
+      <span class="status">Applied project</span>
     </div>
     <h3>Golden Handcuffs: Mortgage Rate Lock-In and Housing Supply</h3>
     <p class="summary">Automated macroeconomic modeling pipeline to quantify how mortgage rate lock-in affects housing supply. Pulled <strong>24 FRED macroeconomic series</strong> and assembled a <strong>67-variable national/state-level panel dataset</strong> for forecasting and state-level segmentation.</p>
@@ -149,7 +149,7 @@ sitemap: true
     <ul class="evidence">
       <li><strong>Data:</strong> FRED API macro series, national housing indicators, and state-level economic panels.</li>
       <li><strong>ML role:</strong> PCA, LASSO, and K-means to identify latent macro structure; XGBoost and SHAP for nonlinear forecasting and interpretability.</li>
-      <li><strong>Recruiting signal:</strong> automated data ingestion, panel-data feature engineering, econometric baselines, model comparison, and interpretable ML.</li>
+      <li><strong>Modeling focus:</strong> automated data ingestion, panel-data feature engineering, econometric baselines, model comparison, and interpretable ML.</li>
     </ul>
     <div class="stack">
       <span class="chip">Python</span><span class="chip">FRED API</span><span class="chip">XGBoost</span><span class="chip">SHAP</span><span class="chip">scikit-learn</span><span class="chip">statsmodels</span><span class="chip">Pandas</span><span class="chip">Matplotlib</span>
@@ -166,7 +166,7 @@ sitemap: true
     <ul class="evidence">
       <li><strong>Physics/data:</strong> laser-plasma accelerator inputs and electron-bunch output properties.</li>
       <li><strong>ML role:</strong> physics-informed prediction and surrogate modeling for expensive experimental/simulation regimes.</li>
-      <li><strong>Recruiting signal:</strong> direct fit for scientific ML, accelerator physics, and hardware-adjacent AI roles.</li>
+      <li><strong>Focus:</strong> scientific ML at the interface of accelerator physics, surrogate modeling, and experimental tuning.</li>
     </ul>
     <div class="stack">
       <span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">Physics-informed ML</span><span class="chip">Surrogate modeling</span>
