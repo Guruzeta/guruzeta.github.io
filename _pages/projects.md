@@ -29,6 +29,9 @@ sitemap: true
   .proj-card .evidence strong { color:var(--ink); font-weight:600; }
   .proj-card .stack { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
   .proj-card .chip { font-size:12px; padding:4px 9px; background:var(--soft); border-radius:999px; color:var(--ink); font-family:'Inter', sans-serif; }
+  .proj-card .links { display:flex; flex-wrap:wrap; gap:14px; margin-top:14px; font-size:14px; }
+  .proj-card .links a { color:var(--accent); text-decoration:none; font-weight:500; }
+  .proj-card .links a:hover { text-decoration:underline; }
 
   .proj-foot { margin-top:48px; padding-top:24px; border-top:1px solid var(--rule); color:var(--muted); font-size:15px; }
   .proj-foot a { color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; }
@@ -140,24 +143,6 @@ sitemap: true
 
   <div class="proj-card">
     <div class="top">
-      <span class="kind">Data Science · Housing Economics</span>
-      <span class="status">Applied project</span>
-    </div>
-    <h3>Golden Handcuffs: Mortgage Rate Lock-In and Housing Supply</h3>
-    <p class="summary">Automated macroeconomic modeling pipeline to quantify how mortgage rate lock-in affects housing supply. Pulled <strong>24 FRED macroeconomic series</strong> and assembled a <strong>67-variable national/state-level panel dataset</strong> for forecasting and state-level segmentation.</p>
-    <p class="result"><strong>Result:</strong> XGBoost outperformed SARIMAX by <strong>30%+ on national RMSE</strong> and <strong>70%+ at the state level</strong>. The project found that lock-in effects are amplified by weak labor markets, while industry structure shapes listing volumes nonlinearly in ways tree-based models detect but SARIMAX misses.</p>
-    <ul class="evidence">
-      <li><strong>Data:</strong> FRED API macro series, national housing indicators, and state-level economic panels.</li>
-      <li><strong>ML role:</strong> PCA, LASSO, and K-means to identify latent macro structure; XGBoost and SHAP for nonlinear forecasting and interpretability.</li>
-      <li><strong>Modeling focus:</strong> automated data ingestion, panel-data feature engineering, econometric baselines, model comparison, and interpretable ML.</li>
-    </ul>
-    <div class="stack">
-      <span class="chip">Python</span><span class="chip">FRED API</span><span class="chip">XGBoost</span><span class="chip">SHAP</span><span class="chip">scikit-learn</span><span class="chip">statsmodels</span><span class="chip">Pandas</span><span class="chip">Matplotlib</span>
-    </div>
-  </div>
-
-  <div class="proj-card">
-    <div class="top">
       <span class="kind">Physics-Informed ML · Accelerator</span>
       <span class="status">Starting Summer 2026</span>
     </div>
@@ -170,6 +155,27 @@ sitemap: true
     </ul>
     <div class="stack">
       <span class="chip">Python</span><span class="chip">PyTorch</span><span class="chip">Physics-informed ML</span><span class="chip">Surrogate modeling</span>
+    </div>
+  </div>
+
+  <div class="proj-card">
+    <div class="top">
+      <span class="kind">Beyond physics · Applied modeling</span>
+      <span class="status">Applied project</span>
+    </div>
+    <h3>Golden Handcuffs: Mortgage Rate Lock-In and Housing Supply</h3>
+    <p class="summary">A step outside physics: applying the same modeling discipline to a macroeconomic question. Automated pipeline quantifying how mortgage rate lock-in affects housing supply, pulling <strong>24 FRED macroeconomic series</strong> into a <strong>67-variable national/state-level panel dataset</strong>.</p>
+    <p class="result"><strong>Result:</strong> XGBoost outperformed SARIMAX by <strong>30%+ on national RMSE</strong> and <strong>70%+ at the state level</strong>. Lock-in effects are amplified by weak labor markets, while industry structure shapes listing volumes nonlinearly in ways tree-based models detect but SARIMAX misses.</p>
+    <ul class="evidence">
+      <li><strong>Data:</strong> FRED API macro series, national housing indicators, and state-level economic panels.</li>
+      <li><strong>ML role:</strong> PCA, LASSO, and K-means to identify latent macro structure; XGBoost and SHAP for nonlinear forecasting and interpretability.</li>
+      <li><strong>Modeling focus:</strong> automated data ingestion, panel-data feature engineering, econometric baselines, model comparison, and interpretable ML.</li>
+    </ul>
+    <div class="stack">
+      <span class="chip">Python</span><span class="chip">FRED API</span><span class="chip">XGBoost</span><span class="chip">SHAP</span><span class="chip">scikit-learn</span><span class="chip">statsmodels</span><span class="chip">Pandas</span><span class="chip">Matplotlib</span>
+    </div>
+    <div class="links">
+      <a href="https://github.com/Guruzeta/Golden-handcuffs-Lockin-effects-on-housing-supply">Code on GitHub →</a>
     </div>
   </div>
 

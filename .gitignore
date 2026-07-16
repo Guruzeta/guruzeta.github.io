@@ -7,3 +7,6 @@ _site/
 node_modules/
 *.swp
 *.swo
+
+# private working notes — never publish
+TODO.md

@@ -1,100 +1,12 @@
 {% comment %}
   Shared CV content. Style by wrapping in a versioned <div class="cv-vN">.
-  Renders as markdown via {{ ... | markdownify }} when called from md page,
-  or insert as-is from html pages.
+  Section order follows academic convention: interests, education, positions,
+  publications, talks, teaching, honors, then supporting material.
 {% endcomment %}
-
-<section data-cv="contact">
-  <h2>Personal</h2>
-  <p>Private email: <a href="mailto:gurukalyan1.618@gmail.com">gurukalyan1.618@gmail.com</a><br>
-  Professional email: <a href="mailto:gjayasingh@ucsd.edu">gjayasingh@ucsd.edu</a><br>
-  UC San Diego, Department of Physics, 9500 Gilman Drive, La Jolla CA 92093, USA</p>
-</section>
-
-<section data-cv="position">
-  <h2>Present Position</h2>
-  <p>Ph.D. Candidate in Theoretical Physics, University of California San Diego (2022–present).</p>
-</section>
-
-<section data-cv="honors">
-  <h2>Honors and Achievements</h2>
-  <ul>
-    <li><strong>Institute Silver Medal</strong>, IIT Bombay (2022) – Awarded to the <strong>top-ranked student</strong> in the graduating class of each academic program.</li>
-    <li><strong>K. Seshia Research Excellence Award</strong>, IIT Bombay (2022) – Given to the <strong>best Master's thesis in Physics</strong> for research originality and rigor.</li>
-    <li><strong>Physics Excellence Award</strong>, Department of Physics, University of California San Diego.</li>
-    <li><strong>Institute Academic Prizes</strong>, IIT Bombay (2019, 2021) – Annual award for the <strong>highest GPA in the Physics Department</strong>.</li>
-    <li><strong>Aalto Science Institute (AScI) Fellowship</strong>, Finland (2020) – International research fellowship for top students in science and engineering.</li>
-    <li><strong>Indian Young Physicists' League (IYPL)</strong> – <strong>All-India Rank 3</strong> (2021), national theoretical physics competition.</li>
-    <li><strong>KVPY Fellowship</strong>, Department of Science &amp; Technology, India (2017) – Prestigious <strong>national fellowship</strong> for the top ~1% of science students with research potential.</li>
-  </ul>
-</section>
-
-<section data-cv="experience">
-  <h2>Professional Experience</h2>
-
-  <article data-role>
-    <header><strong>AI/ML Intern</strong> — <em>TAU Systems Inc., Carlsbad, CA</em> <span class="when">Jun 2026 – Sept 2026</span></header>
-    <ul>
-      <li>Reporting to Reinier Van Mourik (Senior Scientist, Software &amp; Data Science).</li>
-      <li>Designing and implementing a <strong>physics-informed machine learning model</strong> to predict properties of accelerated electron bunches from laser and plasma parameters in laser-plasma wakefield accelerators.</li>
-      <li>Building the associated data preprocessing and feature-engineering pipeline.</li>
-      <li>Developing strategies for the model to handle day-to-day variation in accelerator operation, and an <strong>ML-assisted optimization</strong> loop to automate start-up and tuning of the accelerator.</li>
-    </ul>
-  </article>
-
-  <article data-role>
-    <header><strong>Graduate Researcher (Ph.D. Student)</strong> — <em>University of California San Diego, USA</em> <span class="when">Sept 2022 – Present</span></header>
-    <ul>
-      <li>Conducting research with Prof. Nigel Goldenfeld on the statistical mechanics of turbulence and non-equilibrium phase transitions.</li>
-      <li>Demonstrated that the laminar–turbulent transition in pipe flows with body forces is governed by <strong>tricritical directed percolation</strong>, published in <em>Physical Review Letters</em>.</li>
-      <li>Currently working on problems related to <strong>wave turbulence, transitions to turbulence in shear flows, and stochasticity in turbulent fluids</strong>.</li>
-    </ul>
-  </article>
-
-  <article data-role>
-    <header><strong>Undergraduate &amp; Master's Researcher</strong> — <em>Indian Institute of Technology Bombay, India</em> <span class="when">Aug 2021 – Aug 2022</span></header>
-    <ul>
-      <li>Completed Dual Degree <em>(B.Tech + M.Tech)</em> in Engineering Physics with specialization in Nanoscience.</li>
-      <li>Master's thesis: <em>Topological Insulator–Superconductor Junctions</em> under Prof. Hridis K. Pal.</li>
-      <li>Conducted theoretical and computational work on superconductivity and topological quantum matter.</li>
-    </ul>
-  </article>
-
-  <article data-role>
-    <header><strong>Research Intern</strong> — <em>Tata Institute of Fundamental Research (TIFR), Mumbai, India</em> <span class="when">Feb 2020 – Sept 2021</span></header>
-    <ul>
-      <li>Worked with Prof. Rajdeep Sensarma on electron–phonon equilibration within the Keldysh field-theoretic framework.</li>
-    </ul>
-  </article>
-
-  <article data-role>
-    <header><strong>Research Intern</strong> — <em>Aalto Science Institute (AScI), Finland</em> <span class="when">Apr 2020 – May 2021</span></header>
-    <ul>
-      <li>Selected for the prestigious AScI International Internship Program.</li>
-      <li>Investigated fluctuations in non-centrosymmetric superconductors under Dr. Alexander Zyuzin, studying the effects of spin–orbit coupling on thermodynamic observables.</li>
-      <li>Extended this work into my bachelor's thesis, which also investigated odd-parity superconductors.</li>
-    </ul>
-  </article>
-
-  <article data-role>
-    <header><strong>Research Intern</strong> — <em>National Institute of Science Education and Research (NISER), Bhubaneswar, India</em> <span class="when">May 2018 – Aug 2018</span></header>
-    <ul>
-      <li>Supervised by Dr. Sutanu Roy; studied Banach spaces, fixed-point theorems, and mathematical formulations of Google's PageRank algorithm.</li>
-    </ul>
-  </article>
-</section>
 
 <section data-cv="interests">
   <h2>Research Interests</h2>
-  <p><strong>Fluid Mechanics and Turbulence</strong> · <strong>Non-Equilibrium Statistical Mechanics</strong> · <strong>Condensed Matter</strong> · <strong>Machine Learning for Physical Sciences</strong> · <strong>AI for Physics</strong></p>
-</section>
-
-<section data-cv="publications">
-  <h2>Publications</h2>
-  <ul>
-    <li><strong>G. K. Jayasingh &amp; N. Goldenfeld (2025)</strong> — <em>Tricritical directed percolation controls the laminar–turbulent transition in pipes with body forces</em>, <em>Physical Review Letters</em> (2025).</li>
-    <li><strong>S. Chakraborty, G. K. Jayasingh, H. Pal (2025)</strong> — <em>Topological bound states inhibit superconducting order in quasi-one-dimensional heterostructures</em> <em>(manuscript in preparation)</em>.</li>
-  </ul>
+  <p>Fluid mechanics and turbulence · Non-equilibrium statistical mechanics · Condensed matter · Machine learning for the physical sciences</p>
 </section>
 
 <section data-cv="education">
@@ -103,36 +15,55 @@
   <article data-role class="cv-edu">
     <img class="cv-logo cv-logo-img" src="{{ site.baseurl }}/images/ucsd_seal.png" alt="UCSD seal">
     <div>
-      <header><strong>University of California San Diego (UCSD)</strong> — Ph.D. in Physics <span class="when">2022 – present</span></header>
-      <p>Advisor: <strong>Prof. Nigel Goldenfeld</strong>. Focus: <strong>Statistical Mechanics of Turbulent Phenomena</strong>.</p>
+      <header><span class="what"><strong>University of California San Diego</strong> — Ph.D. in Physics</span> <span class="when">2022 – present</span></header>
+      <p>Advisor: <strong>Prof. Nigel Goldenfeld</strong>. Focus: statistical mechanics of turbulent phenomena.</p>
     </div>
   </article>
 
   <article data-role class="cv-edu">
     <img class="cv-logo cv-logo-img" src="{{ site.baseurl }}/images/iitb_logo.svg" alt="IIT Bombay logo">
     <div>
-      <header><strong>Indian Institute of Technology Bombay (IIT Bombay)</strong> — Dual Degree (B.Tech + M.Tech), Engineering Physics <span class="when">2017 – 2022</span></header>
-      <p>Specialization: Nanoscience · GPA 9.44 / 10.<br>
-      Honors: <strong>Institute Silver Medal</strong>, <strong>K. Seshia Research Excellence Award</strong>, <strong>Institute Academic Prizes</strong> (2019, 2021).</p>
+      <header><span class="what"><strong>Indian Institute of Technology Bombay</strong> — Dual Degree (B.Tech + M.Tech), Engineering Physics</span> <span class="when">2017 – 2022</span></header>
+      <p>Specialization: Nanoscience · GPA 9.44 / 10. Master's thesis: <em>Topological Insulator–Superconductor Junctions</em>, with Prof. Hridis K. Pal.</p>
     </div>
   </article>
 </section>
 
-<section data-cv="research">
-  <h2>Research Experience</h2>
+<section data-cv="experience">
+  <h2>Research Positions</h2>
 
   <article data-role>
-    <header><strong>Transition to Fluid Turbulence as an Ecological Phase Transition</strong> — <em>UC San Diego, with Nigel Goldenfeld</em> <span class="when">Sept 2023 – Present</span></header>
+    <header><span class="what"><strong>AI/ML Intern</strong> — <em>TAU Systems Inc., Carlsbad, CA</em></span> <span class="when">Jun 2026 – Sept 2026</span></header>
     <ul>
-      <li>Developed a <strong>stochastic model</strong> to describe the laminar-to-turbulent transition as a <strong>non-equilibrium phase transition</strong> in flows with body forces.</li>
-      <li>Predicted a <strong>tricritical fixed point</strong> governing turbulence in curved and heated pipes.</li>
-      <li>Constructed a <strong>phase diagram</strong> linking body-force strength to directed-percolation universality classes.</li>
-      <li>Provided <strong>scaling predictions</strong> for future experimental verification.</li>
+      <li>Designing a <strong>physics-informed machine learning model</strong> to predict properties of accelerated electron bunches from laser and plasma parameters in laser-plasma wakefield accelerators, with Reinier Van Mourik (Senior Scientist, Software &amp; Data Science).</li>
+      <li>Building the associated data preprocessing and feature-engineering pipeline.</li>
+      <li>Developing strategies for the model to handle day-to-day variation in accelerator operation, and an <strong>ML-assisted optimization</strong> loop to automate start-up and tuning of the accelerator.</li>
     </ul>
   </article>
 
   <article data-role>
-    <header><strong>Electron–Phonon Equilibration via Keldysh Field Theory</strong> — <em>TIFR Mumbai (Rajdeep Sensarma)</em> <span class="when">2020 – 2021</span></header>
+    <header><span class="what"><strong>Graduate Researcher</strong> — <em>University of California San Diego</em></span> <span class="when">Sept 2022 – present</span></header>
+    <p class="cv-proj">Transition to fluid turbulence as an ecological phase transition, with Prof. Nigel Goldenfeld.</p>
+    <ul>
+      <li>Developed a <strong>stochastic model</strong> describing the laminar-to-turbulent transition as a <strong>non-equilibrium phase transition</strong> in flows with body forces.</li>
+      <li>Predicted a <strong>tricritical fixed point</strong> governing turbulence in curved and heated pipes, and constructed a <strong>phase diagram</strong> linking body-force strength to directed-percolation universality classes; published in <em>Physical Review Letters</em>.</li>
+      <li>Provided <strong>scaling predictions</strong> for future experimental verification.</li>
+      <li>Current work on <strong>wave turbulence, transitions to turbulence in shear flows, and stochasticity in turbulent fluids</strong>.</li>
+    </ul>
+  </article>
+
+  <article data-role>
+    <header><span class="what"><strong>Master's Researcher</strong> — <em>Indian Institute of Technology Bombay</em></span> <span class="when">Aug 2021 – Aug 2022</span></header>
+    <p class="cv-proj">Characterizing topological insulator–superconductor junctions, with Prof. Hridis K. Pal.</p>
+    <ul>
+      <li>Modeled superconductor–topological insulator and superconductor–metal junctions using quasi-classical Green's function methods to study critical temperature, critical fields, and the influence of surface states on superconductivity.</li>
+      <li>Derived a non-local Ginzburg–Landau functional for the order parameter, and investigated the effects of topology in superconductor–topological insulator heterostructures.</li>
+    </ul>
+  </article>
+
+  <article data-role>
+    <header><span class="what"><strong>Research Intern</strong> — <em>Tata Institute of Fundamental Research (TIFR), Mumbai</em></span> <span class="when">Feb 2020 – Sept 2021</span></header>
+    <p class="cv-proj">Electron–phonon equilibration via Keldysh field theory, with Prof. Rajdeep Sensarma.</p>
     <ul>
       <li>Investigated <strong>self-consistent electron–phonon dynamics</strong> within the <strong>Keldysh formalism</strong>, beyond the standard static-bath approximation.</li>
       <li>Wrote extensive and modular Python (&amp; Julia) codes for evolving the coupled system; tested constituents by connecting them to baths and studying equilibration characteristics from specific initial conditions.</li>
@@ -140,47 +71,60 @@
   </article>
 
   <article data-role>
-    <header><strong>Fluctuations in Non-Centrosymmetric Superconductors</strong> — <em>Aalto Institute, Finland (Alexander Zyuzin)</em> <span class="when">2020</span></header>
+    <header><span class="what"><strong>Research Intern</strong> — <em>Aalto Science Institute (AScI), Finland</em></span> <span class="when">Apr 2020 – May 2021</span></header>
+    <p class="cv-proj">Fluctuations in non-centrosymmetric superconductors, with Dr. Alexander Zyuzin. Selected for the AScI International Internship Program.</p>
     <ul>
-      <li>Extended Ginzburg–Landau theory to spin–orbit-coupled superconductors <strong>lacking inversion symmetry</strong>.</li>
-      <li>Analyzed fluctuation effects on magnetic susceptibility and specific heat near critical temperature.</li>
+      <li>Extended Ginzburg–Landau theory to spin–orbit-coupled superconductors <strong>lacking inversion symmetry</strong>, studying the effects of spin–orbit coupling on thermodynamic observables.</li>
+      <li>Analyzed fluctuation effects on magnetic susceptibility and specific heat near the critical temperature; extended into my bachelor's thesis, which also investigated odd-parity superconductors.</li>
     </ul>
   </article>
 
   <article data-role>
-    <header><strong>Characterizing Topological Insulator–Superconductor Junctions</strong> — <em>IIT Bombay (Hridis K. Pal)</em> <span class="when">2021 – 2022</span></header>
+    <header><span class="what"><strong>Research Intern</strong> — <em>National Institute of Science Education and Research (NISER), Bhubaneswar</em></span> <span class="when">May 2018 – Aug 2018</span></header>
     <ul>
-      <li>Modeled superconductor–topological insulator and superconductor–metal junctions using quasi-classical Green's function methods to study critical temperature, critical fields, and the influence of surface states on superconductivity.</li>
-      <li>Derived a non-local Ginzburg–Landau functional for the order parameter, and investigated the effects of topology in superconductor–topological insulator heterostructures.</li>
+      <li>Supervised by Dr. Sutanu Roy; studied Banach spaces, fixed-point theorems, and mathematical formulations of Google's PageRank algorithm.</li>
     </ul>
   </article>
+</section>
+
+<section data-cv="publications">
+  <h2>Publications</h2>
+  <ul>
+    <li><strong>G. K. Jayasingh &amp; N. Goldenfeld</strong> — <em>Tricritical directed percolation controls the laminar–turbulent transition in pipes with body forces</em>, <strong>Physical Review Letters 135, 104001</strong> (2025). <a href="https://doi.org/10.1103/46g3-n7cx">doi:10.1103/46g3-n7cx</a></li>
+    <li><strong>S. Chakraborty, G. K. Jayasingh, H. Pal</strong> — <em>Topological bound states inhibit superconducting order in quasi-one-dimensional heterostructures</em> (manuscript in preparation).</li>
+  </ul>
 </section>
 
 <section data-cv="talks">
   <h2>Talks and Presentations</h2>
 
   <article data-role>
-    <header><strong>Laminar–Turbulent Transition in Pipes with Body Forces: Continuous, Discontinuous, or Both?</strong> <span class="when">APS Joint March &amp; April Meeting, Global Physics Summit 2025, Anaheim, CA</span></header>
+    <header><span class="what"><strong>Laminar–Turbulent Transition in Pipes with Body Forces: Continuous, Discontinuous, or Both?</strong></span> <span class="when">Mar 2025</span></header>
+    <p class="cv-venue">APS Joint March &amp; April Meeting, Global Physics Summit, Anaheim, CA</p>
     <p>Presented results on <strong>tricritical turbulence scaling</strong> in flows under body forces.</p>
   </article>
 
   <article data-role>
-    <header><strong>Tricritical Directed Percolation and Transitional Turbulence</strong> <span class="when">JIFT Workshop, UC San Diego, 2025</span></header>
+    <header><span class="what"><strong>Tricritical Directed Percolation and Transitional Turbulence</strong></span> <span class="when">Oct 2025</span></header>
+    <p class="cv-venue">JIFT Workshop on Strong Turbulence, UC San Diego</p>
     <p>Invited talk on statistical mechanics of turbulence and universality in boundary-driven flows.</p>
   </article>
 
   <article data-role>
-    <header><strong>Low-Rank Hypothesis of Complex Systems</strong> <span class="when">UC San Diego, Feb 2025</span></header>
+    <header><span class="what"><strong>Low-Rank Hypothesis of Complex Systems</strong></span> <span class="when">Feb 2025</span></header>
+    <p class="cv-venue">UC San Diego</p>
     <p>Discussed dimensional reduction and low-rank structure in complex systems. <a href="{{ site.baseurl }}/files/Low_Rank_Hypothesis_v1.5.pdf">Slides</a>.</p>
   </article>
 
   <article data-role>
-    <header><strong>Aspects of Unconventional Superconductivity</strong> <span class="when">Condensed Matter Journal Club, IIT Bombay, Aug 2022</span></header>
+    <header><span class="what"><strong>Aspects of Unconventional Superconductivity</strong></span> <span class="when">Aug 2022</span></header>
+    <p class="cv-venue">Condensed Matter Journal Club, IIT Bombay</p>
     <p>Classification of order parameters within a generalized BCS theory and the nature of physical observables for different pairing symmetries.</p>
   </article>
 
   <article data-role>
-    <header><strong>Bosonization and Applications</strong> <span class="when">Condensed Matter Journal Club, IIT Bombay, Sept 2021</span></header>
+    <header><span class="what"><strong>Bosonization and Applications</strong></span> <span class="when">Sept 2021</span></header>
+    <p class="cv-venue">Condensed Matter Journal Club, IIT Bombay</p>
     <p>Two-part seminar deriving bosonization identities and their application to transport in Luttinger liquids.</p>
   </article>
 </section>
@@ -189,62 +133,62 @@
   <h2>Teaching and Academic Service</h2>
 
   <article data-role>
-    <header><strong>Teaching Assistant</strong>, UC San Diego, Department of Physics <span class="when">2022 – Present</span></header>
+    <header><span class="what"><strong>Teaching Assistant</strong> — <em>UC San Diego, Department of Physics</em></span> <span class="when">2022 – present</span></header>
     <ul>
-      <li>Supported <strong>undergraduate</strong> and <strong>graduate</strong> courses including:
-        <ul>
-          <li>Emergent States of Matter (twice; graduate course, Prof. Nigel Goldenfeld).</li>
-          <li>Phys 1 &amp; Phys 2 series — Mechanics, Electromagnetism, and hands-on labs covering Waves and Oscillations.</li>
-        </ul>
-      </li>
+      <li>Emergent States of Matter (twice; graduate course, Prof. Nigel Goldenfeld).</li>
+      <li>Introductory mechanics and electromagnetism series, including hands-on labs covering waves and oscillations.</li>
       <li>Led weekly discussion sections, held office hours, and assisted with grading and logistics.</li>
     </ul>
   </article>
 
   <article data-role>
-    <header><strong>Teaching Assistant</strong>, IIT Bombay</header>
+    <header><span class="what"><strong>Teaching Assistant</strong> — <em>IIT Bombay</em></span> <span class="when">2021 – 2022</span></header>
     <ul>
-      <li>Served as TA for undergraduate and graduate courses: Statistical Physics, Advanced Statistical Mechanics, Complex Analysis, Electromagnetism.</li>
+      <li>Statistical Physics, Advanced Statistical Mechanics, Complex Analysis, Electromagnetism.</li>
       <li>Conducted weekly tutorials; assisted with examinations, grading, and curating practice problems.</li>
     </ul>
   </article>
 </section>
 
-<section data-cv="leadership">
-  <h2>Leadership and Organization</h2>
-  <article data-role>
-    <header><strong>Manager</strong>, Maths &amp; Physics Club, IIT Bombay <span class="when">2019 – 2020</span></header>
-    <ul>
-      <li>Led a 5-member team organizing lectures, workshops, and outreach for a <strong>400-member campus community</strong> and <strong>9,000+ online followers</strong>.</li>
-      <li>Coordinated visits including the Atomic Physics and Quantum Optics Lab at IISER Pune; managed campus-wide experimental physics competitions.</li>
-    </ul>
-  </article>
+<section data-cv="honors">
+  <h2>Honors and Awards</h2>
+  <ul>
+    <li><strong>Institute Silver Medal</strong>, IIT Bombay (2022) – Awarded to the <strong>top-ranked student</strong> in the graduating class of each academic program.</li>
+    <li><strong>K. Seshia Research Excellence Award</strong>, IIT Bombay (2022) – Given to the <strong>best Master's thesis in Physics</strong> for research originality and rigor.</li>
+    <li><strong>Physics Excellence Award</strong>, Department of Physics, UC San Diego (2022).</li>
+    <li><strong>Institute Academic Prizes</strong>, IIT Bombay (2019, 2021) – Annual award for the <strong>highest GPA in the Physics Department</strong>.</li>
+    <li><strong>Aalto Science Institute (AScI) Fellowship</strong>, Finland (2020) – International research fellowship for top students in science and engineering.</li>
+    <li><strong>Indian Young Physicists' League (IYPL)</strong> – <strong>All-India Rank 3</strong> (2021), national theoretical physics competition.</li>
+    <li><strong>KVPY Fellowship</strong>, Department of Science &amp; Technology, India (2017) – National fellowship for the top ~1% of science students with research potential.</li>
+  </ul>
 </section>
 
 <section data-cv="skills">
   <h2>Technical Skills</h2>
   <ul>
-    <li><strong>Programming:</strong> Python · C/C++ (working familiarity) · PyTorch</li>
-    <li><strong>Libraries:</strong> NumPy · SciPy · scikit-learn · Pandas · Numba · Matplotlib · Seaborn</li>
-    <li><strong>Tools:</strong> LaTeX · Mathematica · Git · Jupyter · Markdown</li>
-    <li><strong>Methods:</strong> Stochastic Modeling · Monte Carlo Simulation · <strong>Machine Learning</strong> · Statistical Analysis</li>
+    <li><strong>Programming:</strong> Python (7+ yrs) · C/C++ (working familiarity)</li>
+    <li><strong>Machine learning:</strong> PyTorch · scikit-learn · XGBoost · RNN / LSTM / GRU</li>
+    <li><strong>Scientific computing:</strong> NumPy · SciPy · Pandas · Numba · Matplotlib · Seaborn</li>
+    <li><strong>Methods:</strong> Stochastic modeling · Monte Carlo simulation · Finite-size scaling · Time-series analysis · Statistical analysis</li>
+    <li><strong>Tools:</strong> LaTeX · Mathematica · Git · Jupyter</li>
   </ul>
 </section>
 
-<section data-cv="coursework">
-  <h2>Selected Coursework</h2>
-  <ul>
-    <li><strong>Physics:</strong> Advanced Statistical Mechanics · Condensed Matter Theory · Quantum Field Theory · Topological Aspects of Quantum Matter · Nonlinear Dynamics</li>
-    <li><strong>Mathematics:</strong> Group Theory · Complex Analysis · Differential Equations · Numerical Analysis</li>
-    <li><strong>Computational:</strong> Machine Learning · Programming · Data Analysis</li>
-  </ul>
+<section data-cv="leadership">
+  <h2>Leadership and Outreach</h2>
+  <article data-role>
+    <header><span class="what"><strong>Manager</strong> — <em>Maths &amp; Physics Club, IIT Bombay</em></span> <span class="when">2019 – 2020</span></header>
+    <ul>
+      <li>Led a 5-member team organizing lectures, workshops, and outreach for a <strong>400-member campus community</strong> and <strong>9,000+ online followers</strong>.</li>
+      <li>Coordinated visits including the Atomic Physics and Quantum Optics Lab at IISER Pune; managed campus-wide experimental physics competitions.</li>
+    </ul>
+  </article>
+  <article data-role>
+    <header><span class="what">Invited speaker, <em>"Why a Maths and Physics Club?"</em></span> <span class="when">2019</span></header>
+    <ul>
+      <li>Advanced Pedagogy Workshop (TEQIP-KITE III). Addressed over <strong>100</strong> college-level mathematics faculty from across India, under the aegis of the World Bank and the Government of India.</li>
+    </ul>
+  </article>
 </section>
 
-<section data-cv="outreach">
-  <h2>Extracurricular and Outreach</h2>
-  <ul>
-    <li>Invited speaker for <em>"Why a Maths and Physics Club?"</em> — Advanced Pedagogy Workshop (TEQIP-KITE III, 2019). Addressed over <strong>100</strong> college-level mathematics faculty from across India as part of an Advanced Pedagogy Workshop under the aegis of the World Bank and the Government of India.</li>
-  </ul>
-</section>
-
-<p class="cv-updated"><em>Last updated: March 2026.</em></p>
+<p class="cv-updated"><em>Last updated: July 2026.</em></p>

@@ -50,33 +50,56 @@ redirect_from:
   .home-prose a:hover { border-color:var(--accent); }
 
   /* --- credentials --- */
-  .home-creds { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:0; }
+  .home-creds { display:flex; flex-direction:column; gap:14px; margin-top:0; }
   .home-cred {
-    border:1px solid var(--rule); border-radius:8px; padding:18px 20px;
-    display:grid; grid-template-columns:48px 1fr; gap:14px; align-items:center;
+    border:1px solid var(--rule); border-radius:8px; padding:20px 22px;
+    display:grid; grid-template-columns:48px 1fr; gap:16px; align-items:start;
     background:var(--panel);
   }
   .home-cred-logo {
     width:48px; height:48px; border-radius:10px; object-fit:contain;
     background:#fff; border:1px solid var(--rule); padding:5px;
   }
+  .home-cred .cred-head {
+    display:flex; justify-content:space-between; align-items:baseline;
+    gap:14px; margin:0 0 4px;
+  }
   .home-cred .label {
     font-family:'JetBrains Mono', monospace; font-size:11px; letter-spacing:0.15em;
-    text-transform:uppercase; color:var(--accent); font-weight:600; margin:0 0 4px;
+    text-transform:uppercase; color:var(--accent); font-weight:600; margin:0;
+  }
+  .home-cred .when {
+    font-family:'JetBrains Mono', monospace; font-size:12px; letter-spacing:0.08em;
+    color:var(--muted); white-space:nowrap;
   }
   .home-cred h3 {
     font-family:'Source Serif 4', serif; font-size:20px; line-height:1.25;
-    font-weight:600; color:var(--ink); margin:0 0 4px;
+    font-weight:600; color:var(--ink); margin:0 0 5px;
   }
-  .home-cred p { color:var(--muted); font-size:14px; line-height:1.5; margin:0; }
-  .home-awards { margin-top:18px; padding-top:18px; border-top:1px solid var(--rule); }
-  .home-awards-row { display:flex; flex-wrap:wrap; gap:8px; }
-  .home-award {
-    display:inline-flex; align-items:center; gap:7px; padding:7px 11px;
-    border:1px solid var(--rule); border-radius:999px; background:var(--soft);
-    color:var(--ink); font-size:13px; font-weight:500; line-height:1.35;
+  .home-cred p { color:var(--muted); font-size:14.5px; line-height:1.55; margin:0; }
+  .home-awards { margin-top:34px; }
+  .home-awards h2 {
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase;
+    color:var(--muted); margin:0 0 16px;
   }
-  .home-award strong { font-weight:700; }
+  .home-awards-list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; }
+  .home-awards-list li {
+    padding:14px 0; border-bottom:1px solid var(--rule);
+  }
+  .home-awards-list li:last-child { border-bottom:0; }
+  .home-awards-list .aw-head {
+    display:flex; justify-content:space-between; align-items:baseline; gap:14px;
+  }
+  .home-awards-list .aw-name { font-size:15.5px; color:var(--ink); font-weight:600; }
+  .home-awards-list .aw-where {
+    font-family:'JetBrains Mono', monospace; font-size:12px; letter-spacing:0.08em;
+    color:var(--muted); white-space:nowrap;
+  }
+  .home-awards-list .aw-desc { font-size:14.5px; color:var(--muted); line-height:1.55; margin:4px 0 0; }
+  @media (max-width:560px){
+    .home-cred .cred-head, .home-awards-list .aw-head { flex-direction:column; gap:2px; }
+  }
 
   /* --- news --- */
   .home-news { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; }
@@ -113,10 +136,6 @@ redirect_from:
   .home-pubs .actions a { color:var(--accent); text-decoration:none; }
   .home-pubs .actions a:hover { text-decoration:underline; }
 
-  /* --- toolkit --- */
-  .home-chips { display:flex; flex-wrap:wrap; gap:6px; }
-  .home-chip { font-size:13px; padding:5px 10px; background:var(--soft); border-radius:999px; color:var(--ink); }
-
   @media (max-width:780px){
     .home-h1 { font-size:38px; }
     .home-lead { font-size:17px; }
@@ -124,96 +143,55 @@ redirect_from:
   }
 </style>
 
-<h1 class="home-h1">Statistical mechanics, turbulence, and machine learning.</h1>
-<p class="home-lead">I study how complex systems become unstable, transition, and organize, from laminar-turbulent flows to optimized neural networks.</p>
-<p class="home-lead">My work combines non-equilibrium phase transitions, finite-size scaling, stochastic modeling, and data-driven methods to develop quantitative models for physical phenomena.</p>
-<p class="home-tag">
-  <span class="k">Transitional turbulence</span><span class="sep">|</span>
-  <span class="k">Complexity-stability</span><span class="sep">|</span>
-  <span class="k">Scientific ML</span>
-</p>
+<h1 class="home-h1">Hi, I'm Guru.</h1>
+<p class="home-lead">I'm a fourth-year Physics PhD student at UC San Diego, advised by <a href="https://guava.physics.ucsd.edu/~nigel/" style="color:var(--accent); text-decoration:none;">Nigel Goldenfeld</a>, working on the statistical mechanics of turbulence and machine learning.</p>
+<p class="home-lead">The common thread in my work is how complex systems become unstable, transition, and organize — and I study it in two settings. In fluids, I showed that the laminar–turbulent transition in pipes with body forces is governed by tricritical directed percolation (<a href="https://doi.org/10.1103/46g3-n7cx" style="color:var(--accent); text-decoration:none;">Physical Review Letters, 2025</a>), and I am testing its universality in stratified flows. In machine learning, I ask whether trained neural networks escape the random-matrix instability that May's complexity–stability theorem predicts for complex systems.</p>
+<p class="home-lead">My tools: non-equilibrium phase transitions, finite-size scaling, stochastic modeling, and random-matrix theory.</p>
+<p class="home-lead">Before UCSD, I did a Dual Degree in Engineering Physics at <a href="https://www.iitb.ac.in/" style="color:var(--accent); text-decoration:none;">IIT Bombay</a>, working on quantum condensed matter with <a href="https://www.phy.iitb.ac.in/en/content/hridis-kumar-pal" style="color:var(--accent); text-decoration:none;">Hridis Kumar Pal</a> on topological insulator–superconductor junctions. I also spent time at <a href="https://theory.tifr.res.in/" style="color:var(--accent); text-decoration:none;">TIFR Mumbai</a> on electron–phonon equilibration via Keldysh field theory, and at <a href="https://www.aalto.fi/en" style="color:var(--accent); text-decoration:none;">Aalto University</a> on fluctuations in non-centrosymmetric superconductors.</p>
 
 <div class="home-cta">
   <a class="home-btn primary" href="{{ '/publications/' | relative_url }}">View Research</a>
-  <a class="home-btn" href="{{ '/projects/' | relative_url }}">Projects</a>
-  <a class="home-btn" href="{{ '/files/Guru_Jayasingh_Resume.pdf' | relative_url }}">Resume (PDF)</a>
   <a class="home-btn" href="{{ '/files/Guru_Jayasingh_CV.pdf' | relative_url }}">Academic CV</a>
-  <a class="home-btn" href="mailto:gjayasingh@ucsd.edu">Email</a>
 </div>
 
 <section class="home-sec" style="margin-top:0;">
-  <h2>Affiliations &amp; Honors</h2>
+  <h2>Affiliations</h2>
   <div class="home-creds">
     <div class="home-cred">
       <img class="home-cred-logo" src="{{ '/images/ucsd_seal.png' | relative_url }}" alt="UC San Diego seal">
       <div>
-        <p class="label">Current</p>
+        <div class="cred-head">
+          <p class="label">Current</p>
+          <span class="when">2022 – present</span>
+        </div>
         <h3>UC San Diego Physics</h3>
-        <p>Physics Ph.D. Candidate working on turbulence, phase transitions, and complex systems.</p>
+        <p>Ph.D. candidate in theoretical physics. Thesis work: transition to turbulence under body forces, stratified flows, and the statistical mechanics of machine learning.</p>
       </div>
     </div>
     <div class="home-cred">
       <img class="home-cred-logo" src="{{ '/images/iitb_logo.svg' | relative_url }}" alt="IIT Bombay logo">
       <div>
-        <p class="label">Education</p>
+        <div class="cred-head">
+          <p class="label">Education</p>
+          <span class="when">2017 – 2022</span>
+        </div>
         <h3>IIT Bombay</h3>
-        <p>Dual Degree in Engineering Physics, B.Tech + M.Tech, with specialization in Nanoscience.</p>
+        <p>Dual Degree (B.Tech + M.Tech) in Engineering Physics, specialization in Nanoscience. Master's thesis on topological insulator–superconductor junctions.</p>
       </div>
     </div>
   </div>
-  <div class="home-awards">
-    <div class="home-awards-row">
-      <span class="home-award"><strong>Institute Silver Medal</strong> · IIT Bombay</span>
-      <span class="home-award"><strong>Best Master's Thesis</strong> · K. Seshia Research Excellence Award</span>
-      <span class="home-award"><strong>Physics Excellence Award</strong> · UC San Diego</span>
-      <span class="home-award"><strong>Institute Academic Prizes</strong> · IIT Bombay</span>
-      <span class="home-award"><strong>KVPY Scholarship</strong> · Department of Science &amp; Technology, India</span>
-    </div>
-  </div>
-</section>
-
-<section class="home-sec home-prose">
-  <h2>About</h2>
-  <p>My PhD work, advised by <a href="https://guava.physics.ucsd.edu/~nigel/">Nigel Goldenfeld</a>, focuses on the statistical mechanics of turbulence and instability. I use non-equilibrium phase transitions, finite-size scaling, stochastic modeling, and random-matrix ideas to characterize how disordered physical systems transition between stable and unstable states.</p>
-
-  <p>Current projects center on tricritical directed percolation in transitional turbulence, the universality class of stratified shear-flow transitions, and May's complexity-stability hypothesis in optimized systems such as neural networks.</p>
-
-  <p>Previously: Dual Degree (B.Tech + M.Tech) in Engineering Physics at IIT Bombay — Institute Silver Medal, Best Master's Thesis. Research stints at Aalto University and TIFR Mumbai on quantum condensed matter and topological materials.</p>
-</section>
-
-<section class="home-sec">
-  <h2>News</h2>
-  <ul class="home-news">
-    <li>
-      <span class="when">Jun 2026</span>
-      <span class="what"><strong>AI/ML Intern</strong> at <a href="https://www.tausystems.com">TAU Systems</a> (Carlsbad) — physics-informed ML for laser-plasma electron accelerators.</span>
-    </li>
-    <li>
-      <span class="when">Oct 2025</span>
-      <span class="what">Talk on tricritical DP &amp; transitional turbulence at the <a href="{{ '/talks/2025-10-18-talk-2' | relative_url }}">JIFT Workshop on Strong Turbulence</a>, UC San Diego.</span>
-    </li>
-    <li>
-      <span class="when">Sep 2025</span>
-      <span class="what">First-author paper published in <a href="https://doi.org/10.1103/46g3-n7cx">Phys. Rev. Lett. 135, 104001</a>; covered by <a href="https://today.ucsd.edu/story/turbulence-with-a-twist">UCSD News</a>.</span>
-    </li>
-    <li>
-      <span class="when">Mar 2025</span>
-      <span class="what">Talk at the <a href="{{ '/talks/2025-03-17-talk-1' | relative_url }}">APS Global Physics Summit</a>, Anaheim CA.</span>
-    </li>
-  </ul>
 </section>
 
 <section class="home-sec">
   <h2>Selected Research</h2>
   <ul class="home-pubs">
     <li>
-      <div class="meta">Phys. Rev. Lett. 135, 104001 · 2025</div>
+      <div class="meta">Physical Review Letters 135, 104001 · Peer-reviewed · 2025</div>
       <div class="title"><a href="{{ '/publication/2025-09-03-tricritical-dp-body-force' | relative_url }}">Tricritical Directed Percolation Controls the Laminar–Turbulent Transition in Pipes with Body Forces</a></div>
       <p class="blurb">Jayasingh &amp; Goldenfeld. Identifies the tricritical DP universality class governing pipe-flow transition under body forces; reconciles long-standing discrepancies in transition phenomenology.</p>
       <div class="actions">
         <a href="https://doi.org/10.1103/46g3-n7cx">Paper</a>
         <a href="https://today.ucsd.edu/story/turbulence-with-a-twist">UCSD News</a>
-        <a href="https://chatgpt.com/g/g-68e699d7b85881918b87e4fae3b4f8c9-tricritical-dp-in-laminar-turbulent-transition">paper-GPT</a>
       </div>
     </li>
     <li>
@@ -231,20 +209,81 @@ redirect_from:
 </section>
 
 <section class="home-sec">
-  <h2>Toolkit</h2>
-  <div class="home-chips">
-    <span class="home-chip">Python (7+ yrs)</span>
-    <span class="home-chip">PyTorch</span>
-    <span class="home-chip">scikit-learn</span>
-    <span class="home-chip">XGBoost</span>
-    <span class="home-chip">C / C++</span>
-    <span class="home-chip">NumPy · SciPy · Pandas</span>
-    <span class="home-chip">RNN / LSTM / GRU</span>
-    <span class="home-chip">Time-series analysis</span>
-    <span class="home-chip">Monte Carlo methods</span>
-    <span class="home-chip">Statistical mechanics</span>
-    <span class="home-chip">Non-equilibrium phase transitions</span>
-    <span class="home-chip">Finite-size scaling</span>
+  <h2>News</h2>
+  <ul class="home-news">
+    <li>
+      <span class="when">Jun 2026</span>
+      <span class="what"><strong>AI/ML Intern</strong> at <a href="https://www.tausystems.com">TAU Systems</a> (Carlsbad) — physics-informed ML for laser-plasma electron accelerators.</span>
+    </li>
+    <li>
+      <span class="when">Oct 2025</span>
+      <span class="what">Talk on tricritical DP &amp; transitional turbulence at the <a href="{{ '/talks/2025-10-18-talk-2' | relative_url }}">JIFT Workshop on Strong Turbulence</a>, UC San Diego.</span>
+    </li>
+    <li>
+      <span class="when">Sep 2025</span>
+      <span class="what">First-author paper published in <a href="https://doi.org/10.1103/46g3-n7cx">Physical Review Letters 135, 104001</a>; covered by <a href="https://today.ucsd.edu/story/turbulence-with-a-twist">UCSD News</a>.</span>
+    </li>
+    <li>
+      <span class="when">Mar 2025</span>
+      <span class="what">Talk at the <a href="{{ '/talks/2025-03-17-talk-1' | relative_url }}">APS Global Physics Summit</a>, Anaheim CA.</span>
+    </li>
+  </ul>
+</section>
+
+<section class="home-sec">
+  <div class="home-awards">
+    <h2>Honors</h2>
+    <ul class="home-awards-list">
+      <li>
+        <div class="aw-head">
+          <span class="aw-name">Institute Silver Medal</span>
+          <span class="aw-where">IIT Bombay · 2022</span>
+        </div>
+        <p class="aw-desc">Awarded to the top-ranked student in the graduating class of each academic program.</p>
+      </li>
+      <li>
+        <div class="aw-head">
+          <span class="aw-name">K. Seshia Research Excellence Award</span>
+          <span class="aw-where">IIT Bombay · 2022</span>
+        </div>
+        <p class="aw-desc">Given for the best Master's thesis in Physics, recognizing research originality and rigor.</p>
+      </li>
+      <li>
+        <div class="aw-head">
+          <span class="aw-name">Physics Excellence Award</span>
+          <span class="aw-where">UC San Diego · 2022</span>
+        </div>
+        <p class="aw-desc">Departmental award from the UC San Diego Department of Physics.</p>
+      </li>
+      <li>
+        <div class="aw-head">
+          <span class="aw-name">Institute Academic Prizes</span>
+          <span class="aw-where">IIT Bombay · 2019, 2021</span>
+        </div>
+        <p class="aw-desc">Annual award for the highest GPA in the Physics Department.</p>
+      </li>
+      <li>
+        <div class="aw-head">
+          <span class="aw-name">Aalto Science Institute (AScI) Fellowship</span>
+          <span class="aw-where">Finland · 2020</span>
+        </div>
+        <p class="aw-desc">International research fellowship for top students in science and engineering.</p>
+      </li>
+      <li>
+        <div class="aw-head">
+          <span class="aw-name">Indian Young Physicists' League — All-India Rank 3</span>
+          <span class="aw-where">India · 2021</span>
+        </div>
+        <p class="aw-desc">National theoretical physics competition.</p>
+      </li>
+      <li>
+        <div class="aw-head">
+          <span class="aw-name">KVPY Fellowship</span>
+          <span class="aw-where">Dept. of Science &amp; Technology, India · 2017</span>
+        </div>
+        <p class="aw-desc">National fellowship for the top ~1% of science students identified for research potential.</p>
+      </li>
+    </ul>
   </div>
 </section>
 

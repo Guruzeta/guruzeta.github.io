@@ -7,8 +7,14 @@ permalink: /publications/
 author_profile: false
 ---
 
+{% comment %} Published work first (has paperurl), then in-preparation; newest first within each group {% endcomment %}
+{% assign by_date = site.publications | sort: "date" | reverse %}
+{% assign published = by_date | where_exp: "p", "p.paperurl" %}
+{% assign in_prep = by_date | where_exp: "p", "p.paperurl == nil" %}
+{% assign ordered = published | concat: in_prep %}
+
 <ul class="v3-list">
-{% for post in site.publications reversed %}
+{% for post in ordered %}
   <li>
     <div class="v3-meta">
       {% if post.venue %}{{ post.venue }}{% endif %}{% if post.date %} · {{ post.date | date: "%Y" }}{% endif %}
@@ -26,7 +32,6 @@ author_profile: false
       {% comment %} per-paper extras {% endcomment %}
       {% if post.url contains "tricritical-dp-body-force" %}
         <a href="https://today.ucsd.edu/story/turbulence-with-a-twist">UCSD News</a>
-        <a href="https://chatgpt.com/g/g-68e699d7b85881918b87e4fae3b4f8c9-tricritical-dp-in-laminar-turbulent-transition">Chat with the paper (GPT)</a>
       {% endif %}
     </div>
   </li>
