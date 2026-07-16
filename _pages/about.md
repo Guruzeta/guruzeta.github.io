@@ -216,6 +216,10 @@ redirect_from:
       <span class="what"><strong>AI/ML Intern</strong> at <a href="https://www.tausystems.com">TAU Systems</a> (Carlsbad) — physics-informed ML for laser-plasma electron accelerators.</span>
     </li>
     <li>
+      <span class="when">Dec 2025</span>
+      <span class="what">Took part in the <a href="https://www.simonsfoundation.org/mathematics-physical-sciences/wave-turbulence/">Simons Collaboration on Wave Turbulence</a> Annual Meeting, New York City.</span>
+    </li>
+    <li>
       <span class="when">Oct 2025</span>
       <span class="what">Talk on tricritical DP &amp; transitional turbulence at the <a href="{{ '/talks/2025-10-18-talk-2' | relative_url }}">JIFT Workshop on Strong Turbulence</a>, UC San Diego.</span>
     </li>
