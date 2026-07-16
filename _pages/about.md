@@ -197,7 +197,7 @@ redirect_from:
     <li>
       <div class="meta">In preparation · 2026</div>
       <div class="title"><a href="{{ '/publication/2026-03-30-stratified-turbulence-dp-transition' | relative_url }}">Universality class of turbulent transitions in stably stratified flows</a></div>
-      <p class="blurb">Finite-size scaling and Binder cumulants resolve whether stratification is a relevant perturbation to DP at the turbulent onset.</p>
+      <p class="blurb">Jayasingh, Kaszas, Caulfield &amp; Goldenfeld. Finite-size scaling and Binder cumulants resolve whether stratification is a relevant perturbation to DP at the turbulent onset.</p>
     </li>
     <li>
       <div class="meta">In preparation · 2026</div>

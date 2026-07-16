@@ -92,6 +92,7 @@ sitemap: true
       <a href="#experience">Positions</a>
       <a href="#publications">Publications</a>
       <a href="#talks">Talks</a>
+      <a href="#conferences">Conferences</a>
       <a href="#teaching">Teaching</a>
       <a href="#honors">Honors</a>
       <a href="#skills">Skills</a>
@@ -107,6 +108,7 @@ sitemap: true
       | replace: 'data-cv="experience"',    'id="experience" data-cv="experience"'
       | replace: 'data-cv="publications"',  'id="publications" data-cv="publications"'
       | replace: 'data-cv="talks"',         'id="talks" data-cv="talks"'
+      | replace: 'data-cv="conferences"',   'id="conferences" data-cv="conferences"'
       | replace: 'data-cv="teaching"',      'id="teaching" data-cv="teaching"'
       | replace: 'data-cv="honors"',        'id="honors" data-cv="honors"'
       | replace: 'data-cv="skills"',        'id="skills" data-cv="skills"'

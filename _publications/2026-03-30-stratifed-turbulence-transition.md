@@ -5,6 +5,7 @@ permalink: /publication/2026-03-30-stratified-turbulence-dp-transition
 excerpt: 'In geophysical shear flows, ocean thermoclines, atmospheric boundary layers, stable density stratification suppresses vertical motion and competes with shear-driven turbulence, controlling whether turbulence is sustained or collapses to a laminar state. The laminar-turbulent transition in unstratified shear flow is now understood as a directed percolation (DP) phase transition: the turbulent fraction vanishes continuously at a critical Reynolds number with universal scaling exponents. Whether stratification shifts this critical point, modifies the exponents, or drives the transition into a different universality class entirely is an open question with both fundamental and geophysical significance.'
 date: 2026-03-30
 venue: 'In Preparation'
+citation: 'G. K. Jayasingh, B. Kaszas, C. C. Caulfield and N. Goldenfeld, Transition to turbulence in stably stratified flows (manuscript in preparation).'
 ---
 
 In geophysical shear flows, ocean thermoclines, atmospheric boundary layers, stable density stratification suppresses vertical
