@@ -1,4 +1,4 @@
-<aside class="rail">
+<aside class="rail" id="site-rail" aria-label="Primary navigation">
   <a class="rail-portrait" href="{{ '/' | relative_url }}">
     <img src="{{ '/images/profile_site.jpg' | relative_url }}" alt="Guru Kalyan Jayasingh">
   </a>
@@ -23,9 +23,13 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v3a2 2 0 0 0 2 2h2l4 4V5L7 9H5a2 2 0 0 0-2 2z"/><path d="M16 8a5 5 0 0 1 0 8"/></svg>
       Talks
     </a>
-    <a href="{{ '/blog/' | relative_url }}" {% if page.url contains "/blog" %}class="active"{% endif %}>
+    <a href="{{ '/blog/' | relative_url }}" {% if page.url == "/blog/" %}class="active"{% endif %}>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h10"/></svg>
       Blog
+    </a>
+    <a href="{{ '/technical-notes/' | relative_url }}" {% if page.url == "/technical-notes/" or page.collection == "posts" %}class="active"{% endif %}>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h11l3 3v15H5z"/><path d="M16 3v4h4"/><path d="M8 12h8M8 16h8"/></svg>
+      Technical Notes
     </a>
     <a href="{{ '/teaching/' | relative_url }}" {% if page.url contains "/teaching" %}class="active"{% endif %}>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M6 10.5V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-5.5"/></svg>
@@ -41,23 +45,93 @@
     <a href="https://www.linkedin.com/in/guru-kalyan-jayasingh/" title="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 12.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-11h2.88v1.5h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v6.47z"/></svg></a>
     <a href="https://github.com/Guruzeta" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.87-1.54-3.87-1.54-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.34.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.58.23 2.75.11 3.04.73.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.06.78 2.13v3.16c0 .31.21.67.79.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a>
     <a href="https://scholar.google.com/citations?hl=en&user=nmNd7oYAAAAJ" title="Google Scholar"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 14L2 8l10-6 10 6-10 6zm0 2.5l7-4.2v4.5c0 1.7-3.1 3.2-7 3.2s-7-1.5-7-3.2v-4.5l7 4.2z"/></svg></a>
-    <button class="theme-toggle rail-theme" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+  </div>
+  <button class="theme-toggle rail-theme" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+    <span class="rail-theme-icon" aria-hidden="true">
       <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
       <svg class="icon-sun"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
-    </button>
-  </div>
+    </span>
+    <span class="rail-theme-copy rail-theme-dark-copy">
+      <strong>Dark mode</strong>
+      <small>Use a darker page</small>
+    </span>
+    <span class="rail-theme-copy rail-theme-light-copy">
+      <strong>Light mode</strong>
+      <small>Use a lighter page</small>
+    </span>
+  </button>
 </aside>
 
-<button class="rail-toggle" type="button" aria-label="Open navigation">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+<div class="rail-backdrop" aria-hidden="true"></div>
+
+<button class="rail-toggle" type="button" aria-label="Open navigation" aria-controls="site-rail" aria-expanded="false">
+  <svg class="rail-icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  <svg class="rail-icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
 </button>
 
 <script>
   (function(){
     var btn = document.querySelector('.rail-toggle');
     var rail = document.querySelector('.rail');
-    if (btn && rail) {
-      btn.addEventListener('click', function(){ rail.classList.toggle('open'); });
+    var backdrop = document.querySelector('.rail-backdrop');
+    if (!btn || !rail || !backdrop) return;
+
+    var lastFocused = null;
+    var mobileQuery = window.matchMedia('(max-width: 920px)');
+
+    function focusableItems() {
+      return Array.prototype.slice.call(rail.querySelectorAll('a[href], button:not([disabled])')).concat(btn);
+    }
+
+    function setOpen(open, restoreFocus) {
+      open = !!open && mobileQuery.matches;
+      rail.classList.toggle('open', open);
+      backdrop.classList.toggle('open', open);
+      document.body.classList.toggle('nav-open', open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+      backdrop.setAttribute('aria-hidden', open ? 'false' : 'true');
+
+      if (open) {
+        lastFocused = document.activeElement;
+        var first = rail.querySelector('a[href], button:not([disabled])');
+        if (first) window.requestAnimationFrame(function(){ first.focus(); });
+      } else if (restoreFocus && lastFocused) {
+        btn.focus();
+      }
+    }
+
+    btn.addEventListener('click', function(){
+      setOpen(!rail.classList.contains('open'), false);
+    });
+    backdrop.addEventListener('click', function(){ setOpen(false, true); });
+    rail.addEventListener('click', function(event){
+      if (event.target.closest && event.target.closest('a')) setOpen(false, false);
+    });
+    document.addEventListener('keydown', function(event){
+      if (!rail.classList.contains('open')) return;
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        setOpen(false, true);
+        return;
+      }
+      if (event.key !== 'Tab') return;
+      var items = focusableItems();
+      if (!items.length) return;
+      var first = items[0];
+      var last = items[items.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    });
+    if (mobileQuery.addEventListener) {
+      mobileQuery.addEventListener('change', function(){ setOpen(false, false); });
+    } else if (mobileQuery.addListener) {
+      mobileQuery.addListener(function(){ setOpen(false, false); });
     }
   })();
 </script>

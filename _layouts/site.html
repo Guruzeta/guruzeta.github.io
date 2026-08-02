@@ -94,6 +94,9 @@ layout: compress
         if (themeMeta) themeMeta.setAttribute('content', theme === 'dark' ? '#12151a' : '#ffffff');
         document.querySelectorAll('.theme-toggle').forEach(function(toggle){
           toggle.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+          var label = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+          toggle.setAttribute('aria-label', label);
+          toggle.setAttribute('title', label);
         });
         persist(theme);
       }

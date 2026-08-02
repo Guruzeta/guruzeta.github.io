@@ -30,5 +30,29 @@ layout: site
     </p>
   {% endif %}
 
+  {% assign resource_href = page.resource_url | default: page.pdf %}
+  {% if page.collection == 'posts' and page.resources %}
+  <div class="blog-resource-actions">
+    {% for resource in page.resources %}
+    <a class="v3-btn primary blog-resource-button" href="{% if resource.external %}{{ resource.url }}{% else %}{{ resource.url | relative_url }}{% endif %}"{% if resource.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+      {{ resource.label | default: "Open PDF" }} <span class="blog-resource-arrow" aria-hidden="true">↗</span>
+    </a>
+    {% endfor %}
+  </div>
+  {% elsif page.collection == 'posts' and resource_href %}
+  <div class="blog-resource-actions">
+    <a class="v3-btn primary blog-resource-button" href="{% if page.resource_url %}{{ page.resource_url }}{% else %}{{ page.pdf | relative_url }}{% endif %}"{% if page.resource_url %} target="_blank" rel="noopener noreferrer"{% endif %}>
+      {{ page.resource_label | default: "Open PDF" }} <span class="blog-resource-arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+  {% endif %}
+
   <div class="v3-prose">{{ content }}{% if page.link %}<p><a class="v3-btn primary" href="{{ page.link }}">Direct link</a></p>{% endif %}</div>
+
+  {% if page.collection == 'posts' %}
+  <aside class="blog-corrections">
+    <strong>Corrections are welcome.</strong>
+    If you spot a mistake or have a useful reference to add, <a href="mailto:gjayasingh@ucsd.edu">send me a note</a>.
+  </aside>
+  {% endif %}
 </div>

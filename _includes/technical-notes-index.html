@@ -1,0 +1,86 @@
+{% assign featured_posts = site.posts | where: "featured", true %}
+{% assign featured_post = featured_posts | first %}
+
+{% if site.posts.size == 0 %}
+  <p style="color:var(--muted);">No technical notes yet.</p>
+{% else %}
+  {% if featured_post %}
+  <section class="blog-featured-section" aria-labelledby="featured-note-heading">
+    <h2 class="blog-section-label" id="featured-note-heading">Featured resource</h2>
+    <a class="blog-featured" href="{{ featured_post.url | relative_url }}">
+      <span class="blog-featured-copy">
+        <span class="blog-entry-topline">
+          <time datetime="{{ featured_post.date | date_to_xmlschema }}">{{ featured_post.date | date: "%b %d, %Y" }}</time>
+          {% if featured_post.resource_type %}<span>{{ featured_post.resource_type }}</span>{% endif %}
+          {% if featured_post.resource_length %}<span>{{ featured_post.resource_length }}</span>{% endif %}
+        </span>
+        <span class="blog-featured-title">{{ featured_post.title }}</span>
+        {% if featured_post.excerpt %}<span class="blog-featured-blurb">{{ featured_post.excerpt | markdownify | strip_html | strip_newlines }}</span>{% endif %}
+        {% if featured_post.tags.size > 0 %}
+        <span class="blog-tag-list" aria-label="Topics">
+          {% for tag in featured_post.tags limit: 3 %}<span class="blog-tag">{{ tag }}</span>{% endfor %}
+        </span>
+        {% endif %}
+        <span class="blog-read-link">Open the resource <span aria-hidden="true">→</span></span>
+      </span>
+    </a>
+  </section>
+  {% endif %}
+
+  <section class="blog-latest" aria-labelledby="technical-notes-heading">
+    <div class="blog-section-head">
+      <h2 class="blog-section-label" id="technical-notes-heading">All technical notes</h2>
+    </div>
+    <ul class="v3-list blog-entry-list">
+    {% for post in site.posts %}
+      {% unless featured_post and post.url == featured_post.url %}
+      <li>
+        <a class="blog-entry-card" href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url | relative_url }}{% endif %}"{% if post.external_url %} target="_blank" rel="noopener noreferrer"{% endif %}>
+          <article>
+            <div class="blog-entry-topline">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+              {% if post.resource_type %}<span>{{ post.resource_type }}</span>{% endif %}
+              {% if post.resource_length %}<span>{{ post.resource_length }}</span>{% endif %}
+            </div>
+            <h3 class="v3-title">{{ post.title }}</h3>
+            {% if post.excerpt %}<p class="v3-blurb">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</p>{% endif %}
+            {% if post.tags.size > 0 %}
+            <div class="blog-tag-list" aria-label="Topics">
+              {% for tag in post.tags limit: 3 %}<span class="blog-tag">{{ tag }}</span>{% endfor %}
+            </div>
+            {% endif %}
+            {% if post.external_url %}
+              <span class="blog-read-link">Open my notes <span aria-hidden="true">↗</span></span>
+            {% else %}
+              <span class="blog-read-link">View resource <span aria-hidden="true">→</span></span>
+            {% endif %}
+          </article>
+        </a>
+      </li>
+      {% endunless %}
+    {% endfor %}
+    </ul>
+  </section>
+{% endif %}
+
+<section class="blog-topics" aria-labelledby="notes-topics-heading">
+  <h2 class="blog-section-label" id="notes-topics-heading">Topics covered</h2>
+  <div class="v3-skills">
+    <span class="v3-chip">statistical mechanics</span>
+    <span class="v3-chip">phase transitions</span>
+    <span class="v3-chip">soft matter</span>
+    <span class="v3-chip">condensed matter</span>
+    <span class="v3-chip">complex systems</span>
+  </div>
+</section>
+
+<aside class="blog-subscribe" aria-label="Subscribe to new technical notes">
+  <span class="blog-subscribe-icon" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 11a8 8 0 0 1 8 8"/><path d="M5 5a14 14 0 0 1 14 14"/><circle cx="5" cy="19" r="1" fill="currentColor"/></svg>
+  </span>
+  <span class="blog-subscribe-copy">
+    <strong>Follow new notes</strong>
+    <span>Get new technical resources in any RSS reader—no inbox or account required.</span>
+  </span>
+  <a class="v3-btn" href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS</a>
+</aside>

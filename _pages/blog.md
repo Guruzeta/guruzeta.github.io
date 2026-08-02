@@ -1,31 +1,17 @@
 ---
 layout: archive
 title: "Blog"
-subtitle: "Working notes and plain-language explanations on statistical mechanics, turbulence, and complex systems."
+subtitle: "Essays, research reflections, and occasional updates from my work in physics."
+description: "Essays and research reflections by Guru Kalyan Jayasingh on physics, scientific practice, and graduate research."
 eyebrow: "Writing"
 permalink: /blog/
 author_profile: false
 ---
 
-{% if site.posts.size == 0 %}
-  <p style="color:var(--muted);">No posts yet — first one coming soon.</p>
-{% else %}
-<ul class="v3-list">
-{% for post in site.posts %}
-  <li>
-    <div class="v3-meta">{{ post.date | date: "%b %d, %Y" }}{% if post.tags.size > 0 %} · {{ post.tags | join: ", " }}{% endif %}</div>
-    <div class="v3-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </div>
-    {% if post.excerpt %}
-      <div class="v3-blurb">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</div>
-    {% endif %}
-    <div class="v3-actions"><a href="{{ post.url | relative_url }}">Read →</a></div>
-  </li>
-{% endfor %}
-</ul>
-{% endif %}
-
-<p style="margin-top:32px; color:var(--muted); font-size:14px;">
-RSS: <a href="{{ '/feed.xml' | relative_url }}">feed.xml</a>
-</p>
+<section class="blog-editorial-card" aria-labelledby="blog-editorial-heading">
+  <p class="blog-section-label">About this space</p>
+  <h2 id="blog-editorial-heading">A home for longer-form writing.</h2>
+  <p>I’m separating essays and research reflections from the reference material I use for study and teaching. New long-form pieces will appear here.</p>
+  <p>For derivations, slide decks, compact guides, and working references, visit Technical Notes.</p>
+  <a class="v3-btn primary" href="{{ '/technical-notes/' | relative_url }}">Browse Technical Notes <span aria-hidden="true">→</span></a>
+</section>
