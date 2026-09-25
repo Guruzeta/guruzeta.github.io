@@ -213,7 +213,7 @@ redirect_from:
   <ul class="home-news">
     <li>
       <span class="when">Sep 2026</span>
-      <span class="what">Invited talk on the laminar–turbulent transition with body forces at the <a href="{{ '/talks/2026-09-18-talk-7' | relative_url }}">SCGP workshop on Turbulence in Different Media</a>, Stony Brook (<a href="https://scgp.stonybrook.edu/video_portal/video.php?id=7842">video</a>).</span>
+      <span class="what">Invited talk on the laminar–turbulent transition with body forces at the <a href="{{ '/talks/2026-09-18-talk-7' | relative_url }}">workshop on Turbulence in Different Media</a> at the Simons Center for Geometry and Physics, Stony Brook (<a href="https://scgp.stonybrook.edu/video_portal/video.php?id=7842">video</a>).</span>
     </li>
     <li>
       <span class="when">Jun 2026</span>
@@ -221,7 +221,7 @@ redirect_from:
     </li>
     <li>
       <span class="when">Dec 2025</span>
-      <span class="what">Took part in the <a href="https://www.simonsfoundation.org/mathematics-physical-sciences/wave-turbulence/">Simons Collaboration on Wave Turbulence</a> Annual Meeting, New York City.</span>
+      <span class="what">Attended the <a href="https://www.simonsfoundation.org/mathematics-physical-sciences/wave-turbulence/">Simons Collaboration on Wave Turbulence</a> Annual Meeting, New York City.</span>
     </li>
     <li>
       <span class="when">Oct 2025</span>
