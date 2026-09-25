@@ -212,6 +212,10 @@ redirect_from:
   <h2>News</h2>
   <ul class="home-news">
     <li>
+      <span class="when">Sep 2026</span>
+      <span class="what">Invited talk on the laminar–turbulent transition with body forces at the <a href="{{ '/talks/2026-09-18-talk-7' | relative_url }}">SCGP workshop on Turbulence in Different Media</a>, Stony Brook (<a href="https://scgp.stonybrook.edu/video_portal/video.php?id=7842">video</a>).</span>
+    </li>
+    <li>
       <span class="when">Jun 2026</span>
       <span class="what"><strong>AI/ML Intern</strong> at <a href="https://www.tausystems.com">TAU Systems</a> (Carlsbad) — physics-informed ML for laser-plasma electron accelerators.</span>
     </li>
