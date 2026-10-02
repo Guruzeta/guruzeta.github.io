@@ -2,7 +2,7 @@
 layout: site
 permalink: /
 title: "Guru Kalyan Jayasingh"
-excerpt: "Physics PhD, UC San Diego — turbulence, phase transitions, and complexity-stability."
+excerpt: "Physics PhD, UC San Diego — non-equilibrium statistical mechanics of turbulence, ecology, and machine learning."
 author_profile: false
 sitemap: true
 redirect_from:
@@ -29,6 +29,15 @@ redirect_from:
     font-size:18px; line-height:1.55; color:var(--ink); margin:0 0 13px;
     max-width:700px;
   }
+
+  .home-qs {
+    max-width:700px; margin:0 0 18px; padding-left:22px;
+    font-size:16.5px; line-height:1.62; color:var(--ink);
+  }
+  .home-qs li { margin:0 0 14px; padding-left:4px; }
+  .home-qs li::marker { color:var(--accent); font-weight:600; }
+  .home-qs strong { font-weight:600; }
+  .home-qs a { color:var(--accent); text-decoration:none; }
 
   .home-cta { display:flex; gap:9px; flex-wrap:wrap; margin-bottom:40px; }
   .home-btn {
@@ -144,10 +153,15 @@ redirect_from:
 </style>
 
 <h1 class="home-h1">Hi, I'm Guru.</h1>
-<p class="home-lead">I'm a fourth-year Physics PhD student at UC San Diego, advised by <a href="https://guava.physics.ucsd.edu/~nigel/" style="color:var(--accent); text-decoration:none;">Nigel Goldenfeld</a>, working on the statistical mechanics of turbulence and machine learning.</p>
-<p class="home-lead">The common thread in my work is how complex systems become unstable, transition, and organize — and I study it in two settings. In fluids, I showed that the laminar–turbulent transition in pipes with body forces is governed by tricritical directed percolation (<a href="https://doi.org/10.1103/46g3-n7cx" style="color:var(--accent); text-decoration:none;">Physical Review Letters, 2025</a>), and I am testing its universality in stratified flows. In machine learning, I ask whether trained neural networks escape the random-matrix instability that May's complexity–stability theorem predicts for complex systems.</p>
-<p class="home-lead">My tools: non-equilibrium phase transitions, finite-size scaling, stochastic modeling, and random-matrix theory.</p>
-<p class="home-lead">Before UCSD, I did a Dual Degree in Engineering Physics at <a href="https://www.iitb.ac.in/" style="color:var(--accent); text-decoration:none;">IIT Bombay</a>, working on quantum condensed matter with <a href="https://www.phy.iitb.ac.in/en/content/hridis-kumar-pal" style="color:var(--accent); text-decoration:none;">Hridis Kumar Pal</a> on topological insulator–superconductor junctions. I also spent time at <a href="https://theory.tifr.res.in/" style="color:var(--accent); text-decoration:none;">TIFR Mumbai</a> on electron–phonon equilibration via Keldysh field theory, and at <a href="https://www.aalto.fi/en" style="color:var(--accent); text-decoration:none;">Aalto University</a> on fluctuations in non-centrosymmetric superconductors.</p>
+<p class="home-lead">I'm a fourth-year Physics PhD student at UC San Diego, advised by <a href="https://guava.physics.ucsd.edu/~nigel/" style="color:var(--accent); text-decoration:none;">Nigel Goldenfeld</a>. I work on the statistical mechanics of non-equilibrium systems, in problems spanning turbulence, ecology, and machine learning.</p>
+<p class="home-lead">I'm mostly interested in how non-equilibrium systems transition into &ldquo;interesting&rdquo; states. A few questions drive my work:</p>
+<ol class="home-qs">
+  <li><strong>How do non-equilibrium systems move between states, and what governs the transition &mdash; energetically, dynamically, and statistically?</strong> I study this in transitional flows: the onset of turbulence in pipe flow, Taylor&ndash;Couette flow, and related systems. I'm interested in how new states emerge as a reorganization of length, energy, and time scales, and how the interplay between these scales controls the spatiotemporal organization and dynamics as the system passes from one state to another. In pipes with body forces, for example, I showed that the transition is governed by tricritical directed percolation (<a href="https://doi.org/10.1103/46g3-n7cx" style="color:var(--accent); text-decoration:none;">Physical Review Letters, 2025</a>).</li>
+  <li><strong>Once we understand these simpler cases, which principles carry over?</strong> Can we generalize them to more complicated, realistic settings, and find simple descriptions of phenomena endowed with real-world complexity? The problem I work on here is stratified turbulence &mdash; fluid flow under buoyancy, as in the ocean and atmosphere, where buoyancy and turbulence together mix and reorganize the fluid, shaping both the route to turbulence and the structure of fully developed turbulence. I use techniques from statistical mechanics to understand aspects such as the onset of turbulence in these flows, isolating the key physical mechanisms in a more tractable form and using them to inform qualitative features and make quantitative predictions.</li>
+  <li><strong>What lies beyond energetics?</strong> In non-equilibrium statistical mechanics, energetics alone often cannot explain the multi-scale features and the range of phenomena we observe; one has to look at the dynamics, and at how information is processed en route to such states. I investigate this in machine learning, asking how trained neural networks escape the random-matrix instability postulated by May's famous complexity&ndash;stability theorem in ecology.</li>
+</ol>
+<p class="home-lead">To address these problems, I combine methods from non-equilibrium statistical field theory (Martin&ndash;Siggia&ndash;Rose and Onsager&ndash;Machlup functionals), the theory of phase transitions, finite-size scaling, asymptotic analysis, stochastic modeling, and random-matrix theory.</p>
+<p class="home-lead">Before UCSD, I did a Dual Degree in Engineering Physics at <a href="https://www.iitb.ac.in/" style="color:var(--accent); text-decoration:none;">IIT Bombay</a>, working on quantum condensed matter problems: with <a href="https://www.phy.iitb.ac.in/en/content/hridis-kumar-pal" style="color:var(--accent); text-decoration:none;">Hridis Kumar Pal</a>, I studied topological insulator&ndash;superconductor junctions. I also spent time at <a href="https://theory.tifr.res.in/" style="color:var(--accent); text-decoration:none;">TIFR Mumbai</a>, understanding electron&ndash;phonon equilibration via non-equilibrium field theory methods, and at <a href="https://www.aalto.fi/en" style="color:var(--accent); text-decoration:none;">Aalto University</a>, studying fluctuations in non-centrosymmetric superconductors.</p>
 
 <div class="home-cta">
   <a class="home-btn primary" href="{{ '/publications/' | relative_url }}">View Research</a>
