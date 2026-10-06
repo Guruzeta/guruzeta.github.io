@@ -7,11 +7,8 @@ permalink: /publications/
 author_profile: false
 ---
 
-{% comment %} Published work first (has paperurl), then in-preparation; newest first within each group {% endcomment %}
-{% assign by_date = site.publications | sort: "date" | reverse %}
-{% assign published = by_date | where_exp: "p", "p.paperurl" %}
-{% assign in_prep = by_date | where_exp: "p", "p.paperurl == nil" %}
-{% assign ordered = published | concat: in_prep %}
+{% comment %} Display order is set by the `order` front-matter field on each publication {% endcomment %}
+{% assign ordered = site.publications | sort: "order" %}
 
 <ul class="v3-list">
 {% for post in ordered %}

@@ -10,5 +10,5 @@ layout: site
     <h1 class="v3-page-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
   </div>
   {% endif %}
-  <div class="v3-prose">{{ content }}{% if page.talk_url %}<p><a class="v3-btn primary" href="{{ page.talk_url }}">Slides / link</a></p>{% endif %}</div>
+  <div class="v3-prose">{{ content }}{% if page.slides_url or page.video_url %}<p>{% if page.slides_url %}{% if page.slides_url contains '://' %}{% assign s = page.slides_url %}{% else %}{% assign s = page.slides_url | relative_url %}{% endif %}<a class="v3-btn primary" href="{{ s }}">Slides</a> {% endif %}{% if page.video_url %}<a class="v3-btn" href="{{ page.video_url }}">Video</a>{% endif %}</p>{% endif %}</div>
 </div>
