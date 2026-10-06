@@ -16,9 +16,11 @@ sitemap: true
 
   .proj-list { display:flex; flex-direction:column; gap:20px; }
   .proj-card { border:1px solid var(--rule); border-radius:8px; padding:24px 26px; background:var(--panel); transition: border-color .15s, transform .15s; }
-  a.proj-card-link { display:block; color:inherit; text-decoration:none; }
-  .proj-card .links .more { color:var(--accent); font-weight:500; }
-  a.proj-card-link:hover .more { text-decoration:underline; }
+  .proj-card-link { position:relative; cursor:pointer; }
+  .proj-card-link h3 a { color:inherit; text-decoration:none; }
+  .proj-card-link h3 a::after { content:""; position:absolute; inset:0; border-radius:8px; }
+  .proj-card-link .links a { position:relative; z-index:1; }
+  .proj-card-link:hover h3 a { color:var(--accent); }
   .proj-card:hover { border-color:var(--ink); transform:translateY(-1px); }
   .proj-card .top { display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:10px; margin-bottom:8px; }
   .proj-card .kind { font-family:'JetBrains Mono', monospace; font-size:12px; letter-spacing:0.15em; text-transform:uppercase; color:var(--accent); font-weight:600; }
@@ -54,12 +56,12 @@ sitemap: true
 
 <div class="proj-list">
 
-  <a class="proj-card proj-card-link" href="{{ '/publication/2025-09-03-tricritical-dp-body-force' | relative_url }}">
+  <div class="proj-card proj-card-link">
     <div class="top">
       <span class="kind">Statistical Physics · Turbulence</span>
       <span class="status">Published + ongoing</span>
     </div>
-    <h3>Tricritical Directed Percolation in Transitional Turbulence</h3>
+    <h3><a href="{{ '/publication/2025-09-03-tricritical-dp-body-force' | relative_url }}">Tricritical Directed Percolation in Transitional Turbulence</a></h3>
     <p class="summary">Research on how pipe flow transitions from laminar to turbulent when body forces are applied. The work identifies a tricritical directed-percolation point that enriches the phase diagram of transitional turbulence.</p>
     <p class="result"><strong>Result:</strong> published in <em>Physical Review Letters</em> 135, 104001 (2025), with UC San Diego news coverage. The project connects fluid mechanics with non-equilibrium phase transitions and universal scaling near turbulent onset.</p>
     <ul class="evidence">
@@ -70,15 +72,15 @@ sitemap: true
     <div class="stack">
       <span class="chip">Turbulence</span><span class="chip">Directed Percolation</span><span class="chip">Finite-Size Scaling</span><span class="chip">Statistical Mechanics</span><span class="chip">PRL 2025</span>
     </div>
-    <span class="links"><span class="more">Read the research post →</span></span>
-  </a>
+    <div class="links"><a href="{{ '/publication/2025-09-03-tricritical-dp-body-force' | relative_url }}">Read the research post →</a></div>
+  </div>
 
-  <a class="proj-card proj-card-link" href="{{ '/publication/2026-03-30-may-complexity-stability-neural-networks' | relative_url }}">
+  <div class="proj-card proj-card-link">
     <div class="top">
       <span class="kind">Complex Systems · Random Matrix Theory</span>
       <span class="status">In preparation</span>
     </div>
-    <h3>May's Complexity-Stability Hypothesis in Neural Networks</h3>
+    <h3><a href="{{ '/publication/2026-03-30-may-complexity-stability-neural-networks' | relative_url }}">May's Complexity-Stability Hypothesis in Neural Networks</a></h3>
     <p class="summary">Project asking whether optimized neural networks behave like random complex systems, or whether training produces stabilizing structure analogous to evolved ecological networks.</p>
     <p class="result"><strong>Goal:</strong> test whether gradient descent and selection pressure can move high-dimensional interaction systems away from the random-matrix instability predicted by May's theorem.</p>
     <ul class="evidence">
@@ -89,15 +91,15 @@ sitemap: true
     <div class="stack">
       <span class="chip">Complexity-Stability</span><span class="chip">Random Matrix Theory</span><span class="chip">Neural Networks</span><span class="chip">Spectral Analysis</span><span class="chip">Complex Systems</span>
     </div>
-    <span class="links"><span class="more">Read the research post →</span></span>
-  </a>
+    <div class="links"><a href="{{ '/publication/2026-03-30-may-complexity-stability-neural-networks' | relative_url }}">Read the research post →</a></div>
+  </div>
 
-  <a class="proj-card proj-card-link" href="{{ '/publication/2026-03-30-stratified-turbulence-dp-transition' | relative_url }}">
+  <div class="proj-card proj-card-link">
     <div class="top">
       <span class="kind">Geophysical Turbulence · Universality</span>
       <span class="status">In preparation</span>
     </div>
-    <h3>Universality Class of Stratified Shear-Flow Transitions</h3>
+    <h3><a href="{{ '/publication/2026-03-30-stratified-turbulence-dp-transition' | relative_url }}">Universality Class of Stratified Shear-Flow Transitions</a></h3>
     <p class="summary">Project on whether stable density stratification is a relevant perturbation to directed-percolation universality at turbulent onset in shear flows.</p>
     <p class="result"><strong>Goal:</strong> use finite-size scaling and Binder cumulants to separate finite-domain artifacts from genuine stratification-induced changes to critical behavior.</p>
     <ul class="evidence">
@@ -108,8 +110,8 @@ sitemap: true
     <div class="stack">
       <span class="chip">Stratified Turbulence</span><span class="chip">Universality</span><span class="chip">Binder Cumulants</span><span class="chip">Finite-Size Scaling</span><span class="chip">Geophysical Flow</span>
     </div>
-    <span class="links"><span class="more">Read the research post →</span></span>
-  </a>
+    <div class="links"><a href="{{ '/publication/2026-03-30-stratified-turbulence-dp-transition' | relative_url }}">Read the research post →</a></div>
+  </div>
 
   <div class="proj-card">
     <div class="top">
