@@ -16,6 +16,9 @@ sitemap: true
 
   .proj-list { display:flex; flex-direction:column; gap:20px; }
   .proj-card { border:1px solid var(--rule); border-radius:8px; padding:24px 26px; background:var(--panel); transition: border-color .15s, transform .15s; }
+  a.proj-card-link { display:block; color:inherit; text-decoration:none; }
+  .proj-card .links .more { color:var(--accent); font-weight:500; }
+  a.proj-card-link:hover .more { text-decoration:underline; }
   .proj-card:hover { border-color:var(--ink); transform:translateY(-1px); }
   .proj-card .top { display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:10px; margin-bottom:8px; }
   .proj-card .kind { font-family:'JetBrains Mono', monospace; font-size:12px; letter-spacing:0.15em; text-transform:uppercase; color:var(--accent); font-weight:600; }
@@ -51,7 +54,7 @@ sitemap: true
 
 <div class="proj-list">
 
-  <div class="proj-card">
+  <a class="proj-card proj-card-link" href="{{ '/publication/2025-09-03-tricritical-dp-body-force' | relative_url }}">
     <div class="top">
       <span class="kind">Statistical Physics · Turbulence</span>
       <span class="status">Published + ongoing</span>
@@ -67,9 +70,10 @@ sitemap: true
     <div class="stack">
       <span class="chip">Turbulence</span><span class="chip">Directed Percolation</span><span class="chip">Finite-Size Scaling</span><span class="chip">Statistical Mechanics</span><span class="chip">PRL 2025</span>
     </div>
-  </div>
+    <span class="links"><span class="more">Read the research post →</span></span>
+  </a>
 
-  <div class="proj-card">
+  <a class="proj-card proj-card-link" href="{{ '/publication/2026-03-30-may-complexity-stability-neural-networks' | relative_url }}">
     <div class="top">
       <span class="kind">Complex Systems · Random Matrix Theory</span>
       <span class="status">In preparation</span>
@@ -85,9 +89,10 @@ sitemap: true
     <div class="stack">
       <span class="chip">Complexity-Stability</span><span class="chip">Random Matrix Theory</span><span class="chip">Neural Networks</span><span class="chip">Spectral Analysis</span><span class="chip">Complex Systems</span>
     </div>
-  </div>
+    <span class="links"><span class="more">Read the research post →</span></span>
+  </a>
 
-  <div class="proj-card">
+  <a class="proj-card proj-card-link" href="{{ '/publication/2026-03-30-stratified-turbulence-dp-transition' | relative_url }}">
     <div class="top">
       <span class="kind">Geophysical Turbulence · Universality</span>
       <span class="status">In preparation</span>
@@ -103,7 +108,8 @@ sitemap: true
     <div class="stack">
       <span class="chip">Stratified Turbulence</span><span class="chip">Universality</span><span class="chip">Binder Cumulants</span><span class="chip">Finite-Size Scaling</span><span class="chip">Geophysical Flow</span>
     </div>
-  </div>
+    <span class="links"><span class="more">Read the research post →</span></span>
+  </a>
 
   <div class="proj-card">
     <div class="top">
@@ -144,10 +150,10 @@ sitemap: true
   <div class="proj-card">
     <div class="top">
       <span class="kind">Physics-Informed ML · Accelerator</span>
-      <span class="status">Starting Summer 2026</span>
+      <span class="status">Jun – Sept 2026</span>
     </div>
     <h3>Physics-Informed ML for Laser-Plasma Accelerators</h3>
-    <p class="summary">AI/ML Intern at <a href="https://www.tausystems.com" style="color:var(--accent); text-decoration:none;">TAU Systems</a> (Carlsbad). Surrogate modeling and physics-informed prediction for electron-bunch properties from laser/plasma parameters. Sanitized writeup will follow after the internship.</p>
+    <p class="summary">Machine Learning Researcher at <a href="https://www.tausystems.com" style="color:var(--accent); text-decoration:none;">TAU Systems</a> (Carlsbad). Surrogate modeling and physics-informed prediction for electron-bunch properties from laser/plasma parameters. Sanitized writeup to follow.</p>
     <ul class="evidence">
       <li><strong>Physics/data:</strong> laser-plasma accelerator inputs and electron-bunch output properties.</li>
       <li><strong>ML role:</strong> physics-informed prediction and surrogate modeling for expensive experimental/simulation regimes.</li>

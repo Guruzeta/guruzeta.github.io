@@ -21,7 +21,8 @@ author_profile: false
     {% endif %}
     <div class="v3-actions">
       <a href="{{ post.url | relative_url }}">Details</a>
-      {% if post.talk_url %}<a href="{{ post.talk_url }}">Slides / link</a>{% endif %}
+      {% if post.slides_url %}{% if post.slides_url contains '://' %}<a href="{{ post.slides_url }}">Slides</a>{% else %}<a href="{{ post.slides_url | relative_url }}">Slides</a>{% endif %}{% endif %}
+      {% if post.video_url %}<a href="{{ post.video_url }}">Video</a>{% endif %}
     </div>
   </li>
 {% endfor %}

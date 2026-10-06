@@ -1,6 +1,7 @@
 ---
 title: "Tricritical Directed Percolation Controls the Laminar-Turbulent Transition in Pipes with Body Forces"
 collection: publications
+order: 1
 permalink: /publication/2025-09-03-tricritical-dp-body-force
 excerpt: 'Transition to turbulence in shear flows has been established to be a non-equilibrium phase transition. Body forces can make the transition discontinuous. Observed phenomenology can be explained by a new tricritical point near transition, enriching the phase diagram of transitional turbulence.'
 date: 2025-09-03

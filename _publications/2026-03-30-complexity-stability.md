@@ -1,6 +1,7 @@
 ---
 title: "May's Complexity-Stability Hypothesis in Neural Networks"
 collection: publications
+order: 3
 permalink: /publication/2026-03-30-may-complexity-stability-neural-networks
 excerpt: 'May''s 1972 theorem establishes that sufficiently complex random systems are generically unstable, yet evolved ecosystems systematically violate this prediction through structural mechanisms that natural selection has had billions of years to build. This project investigates whether neural networks, as another class of optimized systems, develop analogous stabilizing structure, or remain in the random-matrix regime, and what properties of the optimization process determine the difference.'
 date: 2026-03-30

@@ -1,6 +1,7 @@
 ---
 title: "Inverse proximity effects of a topological insulator on a superconductor in one-dimensional heterostructures"
 collection: publications
+order: 5
 permalink: /publication/2026-03-30-topological-insulator-superconductor
 excerpt: 'Superconductor–topological insulator heterostructures are a leading route to engineered topological superconductivity, but the back-action of the topological insulator on the superconductor is far less understood than the forward proximity effect. This work asks how topological bound states at the interface modify superconducting order in the quasi-one-dimensional limit.'
 date: 2026-03-30
