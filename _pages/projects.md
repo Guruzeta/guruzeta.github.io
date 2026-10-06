@@ -113,6 +113,23 @@ sitemap: true
     <div class="links"><a href="{{ '/publication/2026-03-30-stratified-turbulence-dp-transition' | relative_url }}">Read the research post →</a></div>
   </div>
 
+  <div class="proj-card proj-card-link">
+    <div class="top">
+      <span class="kind">Transitional Turbulence · Stochastic Modeling</span>
+      <span class="status">Ongoing</span>
+    </div>
+    <h3><a href="{{ '/publication/2026-05-19-puff-slug-transition' | relative_url }}">Puff-Slug Transitions in Pipe Flow</a></h3>
+    <p class="summary">Near the onset of turbulence in pipe flow, localized turbulent puffs decay or split, and at higher Reynolds numbers give way to expanding slugs. This project asks what controls the transition from puffs to slugs.</p>
+    <ul class="evidence">
+      <li><strong>Physics:</strong> puff splitting, directed percolation, slug fronts invading laminar flow.</li>
+      <li><strong>Model:</strong> stochastic predator–prey models of transitional turbulence, centred on Xueying Wang's three-trophic-state model.</li>
+    </ul>
+    <div class="stack">
+      <span class="chip">Transitional Turbulence</span><span class="chip">Puffs &amp; Slugs</span><span class="chip">Predator–Prey Models</span><span class="chip">Stochastic Modeling</span>
+    </div>
+    <div class="links"><a href="{{ '/publication/2026-05-19-puff-slug-transition' | relative_url }}">Read the research post →</a></div>
+  </div>
+
   <div class="proj-card">
     <div class="top">
       <span class="kind">ML · Sensor Physics</span>
