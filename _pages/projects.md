@@ -150,10 +150,10 @@ sitemap: true
   <div class="proj-card">
     <div class="top">
       <span class="kind">Physics-Informed ML · Accelerator</span>
-      <span class="status">Starting Summer 2026</span>
+      <span class="status">Jun – Sept 2026</span>
     </div>
     <h3>Physics-Informed ML for Laser-Plasma Accelerators</h3>
-    <p class="summary">AI/ML Intern at <a href="https://www.tausystems.com" style="color:var(--accent); text-decoration:none;">TAU Systems</a> (Carlsbad). Surrogate modeling and physics-informed prediction for electron-bunch properties from laser/plasma parameters. Sanitized writeup will follow after the internship.</p>
+    <p class="summary">Machine Learning Researcher at <a href="https://www.tausystems.com" style="color:var(--accent); text-decoration:none;">TAU Systems</a> (Carlsbad). Surrogate modeling and physics-informed prediction for electron-bunch properties from laser/plasma parameters. Sanitized writeup to follow.</p>
     <ul class="evidence">
       <li><strong>Physics/data:</strong> laser-plasma accelerator inputs and electron-bunch output properties.</li>
       <li><strong>ML role:</strong> physics-informed prediction and surrogate modeling for expensive experimental/simulation regimes.</li>

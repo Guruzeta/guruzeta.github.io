@@ -231,7 +231,7 @@ redirect_from:
     </li>
     <li>
       <span class="when">Jun 2026</span>
-      <span class="what"><strong>AI/ML Intern</strong> at <a href="https://www.tausystems.com">TAU Systems</a> (Carlsbad) — physics-informed ML for laser-plasma electron accelerators.</span>
+      <span class="what"><strong>Machine Learning Researcher</strong> at <a href="https://www.tausystems.com">TAU Systems</a> (Carlsbad) — physics-informed ML for laser-plasma electron accelerators.</span>
     </li>
     <li>
       <span class="when">Dec 2025</span>
